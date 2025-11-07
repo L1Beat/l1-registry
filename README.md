@@ -162,7 +162,7 @@ Available categories:
 - Finance
 - Social
 - Identity
-- And more...
+- And many more...
 
 ## Data Source
 
