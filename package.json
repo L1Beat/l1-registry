@@ -1,5 +1,5 @@
 {
-  "name": "avalanche-l1-registry",
+  "name": "@l1beat/l1-registry",
   "version": "1.0.0",
   "description": "Community-maintained registry of Avalanche L1 chains",
   "main": "index.js",
