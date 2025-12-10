@@ -32,7 +32,7 @@
       "vmName": "EVM",
       "vmId": "",
       "rpcUrls": [],
-      "assets": []
+      "nativeToken": {}
     }
   ]
 }

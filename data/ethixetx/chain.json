@@ -15,8 +15,14 @@
       "evmChainId": 389,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/etx/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "ETX",
+        "name": "ETX",
+        "decimals": 18
+      }
     }
   ]
 }

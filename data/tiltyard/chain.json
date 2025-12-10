@@ -29,7 +29,7 @@
       "rpcUrls": [
         "https://subnets.avax.network/tiltyard/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {}
     }
   ]
 }

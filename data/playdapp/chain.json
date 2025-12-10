@@ -33,7 +33,7 @@
       "rpcUrls": [
         "https://subnets.avax.network/playdappne/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {}
     }
   ]
 }

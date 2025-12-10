@@ -17,8 +17,14 @@
       "evmChainId": 61360,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/youmio/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "GAS",
+        "name": "GAS",
+        "decimals": 18
+      }
     }
   ]
 }

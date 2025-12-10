@@ -13,14 +13,18 @@
     {
       "blockchainId": "25xjR3fvh7aXkxs36n1xRc3wLUAuqnS1wBxJD1BC4z3y6mHsEV",
       "name": "CX",
-      "description": "",
+      "description": "The CX Chain L1 powers a new frontier in on-chain gaming, purpose-built on Avalanche to merge game execution, liquidity, and fairness into a single decentralized layer. By removing intermediaries and embedding audited randomness and automated payouts directly into the protocol, CX Chain enables a trustless environment where anyone can become a house, delegate capital, or launch games. With native staking, community ownership, and a growing suite of smart-contract games, CX Chain redefines what it means to play, build, and earn in Web3—making liquidity, not just gameplay, a core part of the experience.",
       "evmChainId": 737373,
       "vmName": "EVM",
       "vmId": "WfDfJpyhMEwWLZDypWXq2yfUUCUYaDegMdD5qpUT9zAXeb74a",
       "rpcUrls": [
         "https://subnets.avax.network/cx/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "CX",
+        "name": "CX",
+        "decimals": 18
+      }
     }
   ]
 }

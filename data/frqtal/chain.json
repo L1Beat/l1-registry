@@ -34,8 +34,14 @@
       "evmChainId": 62789,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/frqtalnet/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "FRQ",
+        "name": "FRQ",
+        "decimals": 18
+      }
     }
   ]
 }

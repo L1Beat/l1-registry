@@ -22,8 +22,14 @@
       "evmChainId": 61587,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/tgp/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "TGP",
+        "name": "TGP",
+        "decimals": 18
+      }
     }
   ]
 }

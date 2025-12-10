@@ -18,8 +18,14 @@
       "evmChainId": 202110,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/dinari/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "DGAS",
+        "name": "DGAS",
+        "decimals": 18
+      }
     }
   ]
 }

@@ -26,12 +26,18 @@
     {
       "blockchainId": "txbozTNfyRgJJxtHmsbpvwTTWTHU739z7pX7qKdhJVxHC2MAk",
       "name": "feature",
-      "description": "",
+      "description": "Feature is an entertainment studio and tech company pioneering storytelling’s evolution. We transform fans’ experiences with Smart Content, turning passive consumption into active participation, linking audiences with creators, brands, studios, and content",
       "evmChainId": 33311,
       "vmName": "EVM",
       "vmId": "n6Zzdtgyn5Y5ozrkcFd2Me8oLKbH1rHjv3qS7CvemLgqBSmSp",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/feature/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "FTR",
+        "name": "Feature",
+        "decimals": 18
+      }
     }
   ]
 }

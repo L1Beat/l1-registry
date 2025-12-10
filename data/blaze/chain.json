@@ -26,8 +26,14 @@
       "evmChainId": 46975,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/blaze/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "BLAZE",
+        "name": "BLAZE",
+        "decimals": 18
+      }
     }
   ]
 }

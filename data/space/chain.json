@@ -29,7 +29,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/space/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "FUEL",
+        "name": "FUEL",
+        "decimals": 18
+      }
     }
   ]
 }

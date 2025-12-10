@@ -18,8 +18,14 @@
       "evmChainId": 50776,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/letsbuyhc/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "LBHG",
+        "name": "LBHG",
+        "decimals": 18
+      }
     }
   ]
 }

@@ -21,7 +21,11 @@
       "rpcUrls": [
         "https://node-api.uptn.io/v1/ext/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "UPTN",
+        "name": "UPTN",
+        "decimals": 18
+      }
     }
   ]
 }

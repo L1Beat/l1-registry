@@ -38,7 +38,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "JEWEL",
+        "name": "JEWEL",
+        "decimals": 18
+      }
     }
   ]
 }

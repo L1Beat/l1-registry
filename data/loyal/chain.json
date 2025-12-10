@@ -17,8 +17,14 @@
       "evmChainId": 72379,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/loyal/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "VJP",
+        "name": "VJP",
+        "decimals": 18
+      }
     }
   ]
 }

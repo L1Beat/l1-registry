@@ -17,8 +17,14 @@
       "evmChainId": 84358,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/titan/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "TIN",
+        "name": "TIN",
+        "decimals": 18
+      }
     }
   ]
 }

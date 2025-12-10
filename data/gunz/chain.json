@@ -20,7 +20,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/gunzilla/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "GUN",
+        "name": "Gunz Token",
+        "decimals": 18
+      }
     }
   ]
 }

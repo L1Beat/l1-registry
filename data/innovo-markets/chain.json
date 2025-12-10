@@ -22,12 +22,18 @@
     {
       "blockchainId": "vFHT9J4F6PhqCTMmqkKKUKW3yfsjd6tNvhmcK4MkFa3Pmnnqe",
       "name": "InnovoMarketsMainnet",
-      "description": "",
+      "description": "Innovo Markets Network powering markets.",
       "evmChainId": 10036,
       "vmName": "EVM",
       "vmId": "ZLhwWNLcKhATKbjmGHpSKv9YJ6B462yLyq6eb4CkkD78zCoJZ",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/innovo/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "INN",
+        "name": "Innovo Network",
+        "decimals": 18
+      }
     }
   ]
 }

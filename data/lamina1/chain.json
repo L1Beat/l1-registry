@@ -33,7 +33,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/lamina1/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "L1",
+        "name": "L1",
+        "decimals": 18
+      }
     }
   ]
 }

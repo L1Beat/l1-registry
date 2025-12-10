@@ -20,7 +20,7 @@
       "rpcUrls": [
         "https://subnets.avax.network/masanetwork/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {}
     }
   ]
 }

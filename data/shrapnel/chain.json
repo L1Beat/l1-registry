@@ -34,7 +34,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/shrapnel/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "SHRAPGAS",
+        "name": "SHRAPGAS",
+        "decimals": 18
+      }
     }
   ]
 }

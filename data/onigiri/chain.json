@@ -25,7 +25,7 @@
       "rpcUrls": [
         "https://subnets.avax.network/onigiri/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {}
     }
   ]
 }

@@ -13,14 +13,18 @@
     {
       "blockchainId": "SUDoK9P89PCcguskyof41fZexw7U3zubDP2DZpGf3HbFWwJ4E",
       "name": "FIFA",
-      "description": "",
+      "description": "The FIFA Blockchain is the dedicated Layer 1 powering FIFA’s official Web3 ecosystem.\nIt enables fast, low-cost, and scalable transactions for all FIFA digital products — from collectibles and ticketing to on-chain games and fan rewards. Designed with EVM compatibility, it offers full flexibility for developers while ensuring a secure and seamless experience for users. By integrating digital assets directly into the world of football, the FIFA Blockchain unlocks new ways for fans to engage, collect, and participate in the football ecosystem.\n",
       "evmChainId": 13322,
       "vmName": "EVM",
       "vmId": "XxNJpcFRu85cPDeTZofVHdeD5NCLj1XTgZpJNJABexXJ5e2ho",
       "rpcUrls": [
         "https://subnets.avax.network/fifa/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "GAS",
+        "name": "GAS",
+        "decimals": 18
+      }
     }
   ]
 }

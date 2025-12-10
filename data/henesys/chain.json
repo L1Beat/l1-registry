@@ -13,14 +13,18 @@
     {
       "blockchainId": "2LFmzhHDKxkreihEtPanVmofuFn63bsh8twnRXEbDhBtCJxURB",
       "name": "Henesys",
-      "description": "",
+      "description": "The Henesys L1 drives the MapleStory Universe, a groundbreaking expansion of Nexon's iconic MapleStory franchise. MapleStory Universe is an innovative virtual world ecosystem that leverages thepower of blockchain technology to deliver a truly immersive and dynamic experience. By integrating digital scarcity, open ecosystems, and MapleStory NFTs at its core, it creates a revolutionary platform that promises to redefine the future of gaming and digital ownership.",
       "evmChainId": 68414,
       "vmName": "EVM",
       "vmId": "YtGKetwQgUADapTEJBQCfS2EcH55x4hyjrFiJBaooiUd1X17v",
       "rpcUrls": [
         "https://henesys-rpc.msu.io"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "NXPC",
+        "name": "NEXPACE",
+        "decimals": 18
+      }
     }
   ]
 }

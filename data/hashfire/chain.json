@@ -19,8 +19,14 @@
       "evmChainId": 7272,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/hashfire/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "HASHD",
+        "name": "HASHD",
+        "decimals": 18
+      }
     }
   ]
 }

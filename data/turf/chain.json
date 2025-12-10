@@ -13,12 +13,18 @@
     {
       "blockchainId": "2bDPqb1bsLWxAjJ6WhZA5zNxPaurWHJvQynuzD6CnM8jieAvGS",
       "name": "TurfNetwork",
-      "description": "",
+      "description": "TURF is an intent-driven data orchestration protocol that powers on-demand access to structured, high-context data. The network autonomously & intelligently route requests to relevant sources—bringing real-time, semantically aligned data to the agents and models that request for Data.",
       "evmChainId": 62334,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/turf/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "TURF",
+        "name": "TURF",
+        "decimals": 18
+      }
     }
   ]
 }

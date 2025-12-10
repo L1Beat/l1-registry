@@ -33,7 +33,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/playa3ull/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "3ULL",
+        "name": "3ULL",
+        "decimals": 18
+      }
     }
   ]
 }

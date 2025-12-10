@@ -17,8 +17,14 @@
       "evmChainId": 33345,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/even/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "EVN",
+        "name": "EVN",
+        "decimals": 18
+      }
     }
   ]
 }

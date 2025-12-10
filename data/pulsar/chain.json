@@ -33,7 +33,7 @@
       "rpcUrls": [
         "https://subnets.avax.network/pulsar/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {}
     }
   ]
 }

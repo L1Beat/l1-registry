@@ -20,7 +20,7 @@
       "rpcUrls": [
         "https://subnets.avax.network/really/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {}
     }
   ]
 }

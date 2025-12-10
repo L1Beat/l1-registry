@@ -33,7 +33,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/straitsx/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "STX",
+        "name": "STX",
+        "decimals": 18
+      }
     }
   ]
 }

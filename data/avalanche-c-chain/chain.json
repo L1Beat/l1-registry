@@ -37,7 +37,11 @@
       "rpcUrls": [
         "https://api.avax.network/ext/bc/C/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "decimals": 18
+      }
     }
   ]
 }

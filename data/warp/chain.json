@@ -17,8 +17,14 @@
       "evmChainId": 299792,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/warp/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "PLASMA",
+        "name": "PLASMA",
+        "decimals": 18
+      }
     }
   ]
 }

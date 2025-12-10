@@ -26,12 +26,18 @@
     {
       "blockchainId": "hR6djBP7uMGJnXrjdUic2rzvvuuMpqMWNb5us7j8xgmj6Ck2N",
       "name": "Lamina1Identity",
-      "description": "",
+      "description": "The Lamina1 Identity subnet provides decentralized identity services to the Lamina1 platform and wider Avalanche ecosystem.\n\n\n\n",
       "evmChainId": 10850,
       "vmName": "EVM",
       "vmId": "ae3HBgfy2smdk94GurMennLqotTvKwQeM8PRkALo7HKQRxZUc",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/lamina1id/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "LID",
+        "name": "L1 ID",
+        "decimals": 18
+      }
     }
   ]
 }

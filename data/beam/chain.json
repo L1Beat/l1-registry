@@ -37,7 +37,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/beam/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "BEAM",
+        "name": "Beam",
+        "decimals": 18
+      }
     }
   ]
 }

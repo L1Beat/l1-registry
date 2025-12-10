@@ -16,7 +16,7 @@
       "vmName": "EVM",
       "vmId": "cpEkP82AuzR8dvGzYYay324AFnSZCVQxPxHJdNsE9YrPg6NXh",
       "rpcUrls": [],
-      "assets": []
+      "nativeToken": {}
     }
   ]
 }

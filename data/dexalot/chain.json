@@ -34,7 +34,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/dexalot/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "ALOT",
+        "name": "Dexalot",
+        "decimals": 18
+      }
     }
   ]
 }

@@ -50,7 +50,7 @@ jobs:
 
           errors = []
           required_fields = ['subnetId', 'network', 'categories', 'name', 'description', 'logo', 'website', 'socials', 'chains']
-          required_chain_fields = ['blockchainId', 'name', 'evmChainId', 'vmName', 'vmId', 'rpcUrls', 'assets']
+          required_chain_fields = ['blockchainId', 'name', 'evmChainId', 'vmName', 'vmId', 'rpcUrls', 'nativeToken']
 
           for chain_json in Path('data').rglob('chain.json'):
               if '_TEMPLATE' in str(chain_json) or 'node_modules' in str(chain_json):
@@ -73,6 +73,12 @@ jobs:
                           for field in required_chain_fields:
                               if field not in chain:
                                   errors.append(f"{folder}: chains[{idx}] missing '{field}'")
+
+                          # Validate nativeToken structure
+                          if 'nativeToken' in chain:
+                              native = chain['nativeToken']
+                              if not isinstance(native, dict):
+                                  errors.append(f"{folder}: chains[{idx}] nativeToken must be object")
 
                   # Validate network value
                   if 'network' in data and data['network'] not in ['mainnet', 'fuji']:

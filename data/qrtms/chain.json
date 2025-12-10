@@ -15,8 +15,14 @@
       "evmChainId": 77757,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/qr0723t1ms/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "DIEGO",
+        "name": "DIEGO",
+        "decimals": 18
+      }
     }
   ]
 }

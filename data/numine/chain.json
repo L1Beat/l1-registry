@@ -30,14 +30,18 @@
     {
       "blockchainId": "2c1BN4N9qEhNmW4yCpeLK24SfjFQLyS1Z7FtgRDaYxZWFUUKxf",
       "name": "numine",
-      "description": "",
+      "description": "NUMINE serves as a Web 3.0 gaming platform that functions as a chain and ecosystem, allowing content developers and users to collectively influence the direction of the industry.\nNUMNE offers an effective and convenient solution for developers seeking high-quality content and users desiring an optimal blockchain experience. ",
       "evmChainId": 8021,
       "vmName": "EVM",
       "vmId": "bVvAsrLWieiBKwjttxdaYRDaTDmn5ixjN5bDp8fJekCJLiVQE",
       "rpcUrls": [
         "https://subnets.avax.network/numi/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "NUMINE",
+        "name": "NUMINE",
+        "decimals": 18
+      }
     }
   ]
 }

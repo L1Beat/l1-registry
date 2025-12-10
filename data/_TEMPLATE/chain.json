@@ -31,13 +31,11 @@
       "rpcUrls": [
         "https://rpc.example.com"
       ],
-      "assets": [
-        {
-          "symbol": "TOKEN",
-          "name": "Token Name",
-          "decimals": 18
-        }
-      ]
+      "nativeToken": {
+        "symbol": "TOKEN",
+        "name": "Token Name",
+        "decimals": 18
+      }
     }
   ]
 }

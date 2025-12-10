@@ -38,7 +38,7 @@
       "rpcUrls": [
         "https://subnets.avax.network/meld/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {}
     }
   ]
 }

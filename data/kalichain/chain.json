@@ -34,8 +34,14 @@
       "evmChainId": 6533,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/kalichain/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "KALIS",
+        "name": "KALIS",
+        "decimals": 18
+      }
     }
   ]
 }

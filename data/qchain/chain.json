@@ -30,12 +30,18 @@
     {
       "blockchainId": "2GRw9HYnCxyVsr4P5pytpqcyRaymtnTuu1oZhuSWcP4DfJxojy",
       "name": "QCHAIN",
-      "description": "",
+      "description": "Quboid is a dynamic blend of engineering and creative exploration, dedicated to crafting decentralized economies that facilitate seamless value exchange within communities.",
       "evmChainId": 12150,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/qchain/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "QBE",
+        "name": "QBE",
+        "decimals": 18
+      }
     }
   ]
 }

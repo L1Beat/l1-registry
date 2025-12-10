@@ -26,12 +26,18 @@
     {
       "blockchainId": "2pV5K35V1ohNSYhRU3z1Bud2oZys9bak7QYcmvbVvnieh4FJXc",
       "name": "Blockticity",
-      "description": "",
+      "description": "The Blockticity L1 serves as the verification layer for digital conformity assessment in global trade. It ensures that trade documents are tamper-evident, standards-aligned, and AI-verifiable. Blockticity issues blockchain-secured Certificates of Authenticity (COAs) to verify the origin, handling, and compliance of real-world assets (RWAs) across global supply chains. Powered by our AI engine, CoAi, and integrated with LayerZero interoperability, the Blockticity L1 enables intelligent document validation and composable trust infrastructure for AI-native trade authentication.",
       "evmChainId": 28530,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/btic/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "BTIC",
+        "name": "BTIC",
+        "decimals": 18
+      }
     }
   ]
 }

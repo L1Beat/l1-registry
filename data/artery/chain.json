@@ -13,12 +13,18 @@
     {
       "blockchainId": "rBabVhbJKGcKTEpzm9PdpQ7ModsxNpYQZ6ALN6g9p5JKjqfw6",
       "name": "Artery",
-      "description": "",
+      "description": "Artery Chain is the next-generation Layer 1 blockchain built on Avalanche, specially engineered for AI-powered, immersive Web3 gaming. Artery Chain uniquely integrates rich storytelling, compelling game-first mechanics, and advanced AI systems to revolutionize decentralized gaming worlds.",
       "evmChainId": 4313,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/artery/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "ARTERY",
+        "name": "ARTERY",
+        "decimals": 18
+      }
     }
   ]
 }

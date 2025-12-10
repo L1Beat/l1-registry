@@ -33,7 +33,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/zeroonemai/mainnet/rpc"
       ],
-      "assets": []
+      "nativeToken": {
+        "symbol": "ZERO",
+        "name": "ZERO",
+        "decimals": 18
+      }
     }
   ]
 }

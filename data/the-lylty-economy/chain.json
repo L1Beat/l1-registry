@@ -17,8 +17,14 @@
       "evmChainId": 17177,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/lylty/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "LYLTY",
+        "name": "LYLTY",
+        "decimals": 18
+      }
     }
   ]
 }

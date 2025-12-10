@@ -13,12 +13,18 @@
     {
       "blockchainId": "AowVWzuCAyLrTPSLHHaHeMJSdxRhhWbvmEuXncPnKv1hT5wf4",
       "name": "Orange",
-      "description": "",
+      "description": "Orange L1 is The Creator Network. Purpose-built for AI-native creators, Orange provides the tools to turn AI-assisted and vibe coded ideas into live products, backed by on-chain rewards and an active user ecosystem.\n",
       "evmChainId": 1510,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/orange/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "JUICE",
+        "name": "JUICE",
+        "decimals": 18
+      }
     }
   ]
 }

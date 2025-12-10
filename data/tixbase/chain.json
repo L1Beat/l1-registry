@@ -13,12 +13,18 @@
     {
       "blockchainId": "Bb5XKrQoBT6ypFmFUppAqfSmKCqcqYwjGCn3hHS6gibRTjiDj",
       "name": "Tixbase",
-      "description": "",
+      "description": "TixChain is a dedicated network that serves as the foundation for the Tixbase ticketing platform. It provides a secure, transparent, and scalable infrastructure for managing ticket transactions and ensuring the authenticity of tickets. ",
       "evmChainId": 13790,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
-      "assets": []
+      "rpcUrls": [
+        "https://subnets.avax.network/tixchain/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "TIX",
+        "name": "TIX",
+        "decimals": 18
+      }
     }
   ]
 }
