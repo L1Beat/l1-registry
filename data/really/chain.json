@@ -20,7 +20,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/really/mainnet/rpc"
       ],
-      "nativeToken": {}
+      "nativeToken": {
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": false
 }

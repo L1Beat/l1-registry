@@ -1,5 +1,5 @@
 {
-  "name": "@l1beat/l1-registry",
+  "name": "l1beat-l1-registry",
   "version": "1.0.0",
   "description": "Community-maintained registry of Avalanche L1 chains",
   "main": "index.js",
@@ -19,7 +19,7 @@
     "url": "https://github.com/L1Beat/l1-registry.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "keywords": [
     "avalanche",
@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/L1Beat/l1-registry/issues"
   },
-  "homepage": "https://github.com/L1Beat/l1-registry#readme"
+  "homepage": "https://github.com/L1Beat/l1-registry#readme",
+  "devDependencies": {
+    "axios": "^1.13.2"
+  }
 }

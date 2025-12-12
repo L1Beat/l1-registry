@@ -36,8 +36,11 @@
       "nativeToken": {
         "symbol": "ZERO",
         "name": "ZERO",
-        "decimals": 18
-      }
+        "decimals": 18,
+        "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/1lOFyhAJ0JkDkAmpeCznxL/9729fd9e4e75009f38a0e2c564259ead/icon-512.png"
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": true
 }

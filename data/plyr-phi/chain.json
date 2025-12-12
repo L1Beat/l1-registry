@@ -37,7 +37,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/plyr/mainnet/rpc"
       ],
-      "nativeToken": {}
+      "nativeToken": {
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": true
 }

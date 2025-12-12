@@ -37,8 +37,11 @@
       "nativeToken": {
         "symbol": "ALOT",
         "name": "Dexalot",
-        "decimals": 18
-      }
+        "decimals": 18,
+        "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/2y6naoolB28y6PpxuZgnl5/0371843c401427ec146128c7bb62941d/dexalot.png"
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": true
 }

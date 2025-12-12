@@ -23,8 +23,11 @@
       "nativeToken": {
         "symbol": "TIN",
         "name": "TIN",
-        "decimals": 18
-      }
+        "decimals": 18,
+        "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/468mzLVncwxvPoNr4WIzG0/e3e0a0de11f4b0754bdde0d112b9ae97/mainnet.png"
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": true
 }

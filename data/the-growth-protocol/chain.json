@@ -28,8 +28,11 @@
       "nativeToken": {
         "symbol": "TGP",
         "name": "TGP",
-        "decimals": 18
-      }
+        "decimals": 18,
+        "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/76IPuyrLUYnK0VgueFSi7M/aee8e71bbc409578afcb1ab13593da43/TGP_Logo_Short_-_Straight_BG.png"
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": true
 }

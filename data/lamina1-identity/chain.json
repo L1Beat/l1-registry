@@ -36,8 +36,11 @@
       "nativeToken": {
         "symbol": "LID",
         "name": "L1 ID",
-        "decimals": 18
-      }
+        "decimals": 18,
+        "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/4ihNeP5Qo9diLy0y6ouG3L/8c656592cc45f820188fb647f1a178f2/L1-YouTube-Avatar.png"
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": true
 }

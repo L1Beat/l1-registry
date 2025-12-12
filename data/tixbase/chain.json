@@ -23,8 +23,11 @@
       "nativeToken": {
         "symbol": "TIX",
         "name": "TIX",
-        "decimals": 18
-      }
+        "decimals": 18,
+        "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/3vVAZlWMvseaIUrzOruj87/a75c589d46548fde238ad3a48dc3cbf1/tixbase.jpg"
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": true
 }
