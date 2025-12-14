@@ -37,8 +37,11 @@
       "nativeToken": {
         "symbol": "SHRAPGAS",
         "name": "SHRAPGAS",
-        "decimals": 18
-      }
+        "decimals": 18,
+        "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/3bCKwLkE3vlwnMr52R0RXr/fe8ac511db870a7487986795cb14621e/token-logo.png"
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": true
 }

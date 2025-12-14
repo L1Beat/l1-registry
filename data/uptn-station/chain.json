@@ -24,8 +24,11 @@
       "nativeToken": {
         "symbol": "UPTN",
         "name": "UPTN",
-        "decimals": 18
-      }
+        "decimals": 18,
+        "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/5jmuPVLmmUSDrfXxbIrWwo/4bdbe8d55b775b613156760205d19f9f/symbol_UPTN_-_js_won.png"
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": true
 }

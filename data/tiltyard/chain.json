@@ -29,7 +29,11 @@
       "rpcUrls": [
         "https://subnets.avax.network/tiltyard/mainnet/rpc"
       ],
-      "nativeToken": {}
+      "nativeToken": {
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": false
 }

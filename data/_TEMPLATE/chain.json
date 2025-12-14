@@ -1,5 +1,6 @@
 {
   "subnetId": "subnet-id-here",
+  "isL1": false,
   "network": "mainnet",
   "categories": ["DeFi", "Gaming"],
   "name": "Chain Name",
@@ -28,13 +29,15 @@
       "evmChainId": 12345,
       "vmName": "EVM",
       "vmId": "vm-id-here",
+      "sybilResistanceType": "Proof of Stake",
       "rpcUrls": [
         "https://rpc.example.com"
       ],
       "nativeToken": {
         "symbol": "TOKEN",
         "name": "Token Name",
-        "decimals": 18
+        "decimals": 18,
+        "logoUri": "https://example.com/token-logo.png"
       }
     }
   ]

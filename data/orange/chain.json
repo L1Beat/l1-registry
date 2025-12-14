@@ -23,8 +23,11 @@
       "nativeToken": {
         "symbol": "JUICE",
         "name": "JUICE",
-        "decimals": 18
-      }
+        "decimals": 18,
+        "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/4jmmb8oMQwW5My8YYcEmAx/ee1f1cef8766cc934e9190c5c1c7fa21/Orange_Logo_Mark_Slightly_Padded.png"
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": true
 }

@@ -18,7 +18,11 @@
       "vmName": "EVM",
       "vmId": "o1Fg94YujMqL75Ebrdkos95MTVjZpPpdeAp5ocEsp2X9c2FSz",
       "rpcUrls": [],
-      "nativeToken": {}
+      "nativeToken": {
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority"
     }
-  ]
+  ],
+  "isL1": false
 }
