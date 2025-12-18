@@ -1,6 +1,6 @@
 {
   "subnetId": "11111111111111111111111111111111LpoYY",
-  "isL1": true,
+  "isL1": false,
   "network": "mainnet",
   "categories": [
     "L0"
