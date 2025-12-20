@@ -55,8 +55,15 @@ git checkout -b add-your-chain-name
          "evmChainId": 12345,
          "vmName": "EVM",
          "vmId": "your-vm-id",
+         "sybilResistanceType": "Proof of Stake",
+         "explorerUrl": "https://explorer.yourchain.com",
          "rpcUrls": ["https://rpc.yourchain.com"],
-         "assets": []
+         "nativeToken": {
+           "symbol": "TOKEN",
+           "name": "Token Name",
+           "decimals": 18,
+           "logoUri": "https://yourchain.com/token-logo.png"
+         }
        }
      ]
    }
@@ -117,14 +124,19 @@ git push origin add-your-chain-name
 - `chains` (array) - Blockchain details
 
 #### Chain Level (inside chains array)
+**Required:**
 - `blockchainId` (string) - Avalanche blockchain ID
 - `name` (string) - Blockchain name
-- `description` (string) - Blockchain description
 - `evmChainId` (number) - EVM chain ID
 - `vmName` (string) - Virtual machine name (usually "EVM")
 - `vmId` (string) - Virtual machine ID
 - `rpcUrls` (array) - Array of RPC endpoint URLs
-- `assets` (array) - Native assets
+
+**Optional:**
+- `description` (string) - Blockchain description
+- `sybilResistanceType` (string) - "Proof of Stake" or "Proof of Authority"
+- `explorerUrl` (string) - Blockchain explorer URL
+- `nativeToken` (object) - Native token details (symbol, name, decimals, logoUri)
 
 ### Folder Naming Convention
 

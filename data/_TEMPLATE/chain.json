@@ -30,6 +30,7 @@
       "vmName": "EVM",
       "vmId": "vm-id-here",
       "sybilResistanceType": "Proof of Stake",
+      "explorerUrl": "https://explorer.example.com",
       "rpcUrls": [
         "https://rpc.example.com"
       ],

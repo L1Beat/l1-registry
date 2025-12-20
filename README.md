@@ -63,14 +63,15 @@ l1-registry/
       "evmChainId": 12345,
       "vmName": "EVM",
       "vmId": "vm-id-here",
+      "sybilResistanceType": "Proof of Stake",
+      "explorerUrl": "https://explorer.example.com",
       "rpcUrls": ["https://rpc.example.com"],
-      "assets": [
-        {
-          "symbol": "TOKEN",
-          "name": "Token Name",
-          "decimals": 18
-        }
-      ]
+      "nativeToken": {
+        "symbol": "TOKEN",
+        "name": "Token Name",
+        "decimals": 18,
+        "logoUri": "https://example.com/token-logo.png"
+      }
     }
   ]
 }
