@@ -25,7 +25,7 @@
         "symbol": "DGAS",
         "name": "DGAS",
         "decimals": 18,
-        "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/62KzIedYATHGgRODAP5Py9/e290f4d8598ac8d30d80975a560cca8f/AvaCloud-512x512.png"
+        "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"
     }

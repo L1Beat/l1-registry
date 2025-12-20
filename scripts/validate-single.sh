@@ -64,7 +64,7 @@ try:
 
     errors = []
     required_fields = ['subnetId', 'network', 'categories', 'name', 'description', 'logo', 'website', 'socials', 'chains']
-    required_chain_fields = ['blockchainId', 'name', 'evmChainId', 'vmName', 'vmId', 'rpcUrls', 'assets']
+    required_chain_fields = ['blockchainId', 'name', 'evmChainId', 'vmName', 'vmId', 'rpcUrls']
 
     # Check required L1 fields
     for field in required_fields:

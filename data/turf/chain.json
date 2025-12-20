@@ -6,7 +6,7 @@
   ],
   "name": "Turf",
   "description": "TURF is an intent-driven data orchestration protocol that powers on-demand access to structured, high-context data. We intelligently route requests to relevant sources—bringing real-time, semantically aligned data to the agents and models that need it.",
-  "logo": "",
+  "logo": "https://images.ctfassets.net/gcj8jwzm6086/2OGwSmo36iWhvmPfgUUnEb/0812275eac56a8d82907fb96d96002bc/with_green_background.png",
   "website": "https://turf.network",
   "socials": [],
   "chains": [
