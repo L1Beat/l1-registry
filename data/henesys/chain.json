@@ -26,7 +26,8 @@
         "decimals": 18,
         "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/4vLq0seR2nSWK79ldnXnKR/c63f65587cc5da3dae7a8bc087792dc9/NEXPACE_TICKER_Color.png"
       },
-      "sybilResistanceType": "Proof of Authority"
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://subnets.avax.network/henesys"
     }
   ],
   "isL1": true

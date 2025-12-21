@@ -43,7 +43,8 @@
         "decimals": 18,
         "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/2ZXZw0POSuXhwoGTiv2fzh/5b9d9e81acb434461da5addb1965f59d/chain-logo.png"
       },
-      "sybilResistanceType": "Proof of Stake"
+      "sybilResistanceType": "Proof of Stake",
+      "explorerUrl": "https://subnets.avax.network/beam"
     }
   ],
   "isL1": true

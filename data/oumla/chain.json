@@ -17,8 +17,12 @@
       "evmChainId": 58166,
       "vmName": "EVM",
       "vmId": "",
+      "explorerUrl": "https://subnets.avax.network/oumla",
       "rpcUrls": [],
       "nativeToken": {
+        "symbol": "OUMLA",
+        "name": "OUMLA",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

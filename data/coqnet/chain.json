@@ -39,7 +39,8 @@
         "decimals": 18,
         "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/1r0LuDAKrZv9jgKqaeEBN3/9a7efac3099b861366f9e776e6131617/Isotipo_coq.png"
       },
-      "sybilResistanceType": "Proof of Stake"
+      "sybilResistanceType": "Proof of Stake",
+      "explorerUrl": "https://subnets.avax.network/coqnet"
     }
   ],
   "isL1": true

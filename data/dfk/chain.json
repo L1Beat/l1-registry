@@ -44,7 +44,8 @@
         "decimals": 18,
         "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/15KL2tZgiggSNEgHbrxG4C/5f9b3f91c0a7666cd3d26b4d273fa158/defikingdoms.png"
       },
-      "sybilResistanceType": "Proof of Authority"
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://subnets.avax.network/defi-kingdoms"
     }
   ],
   "isL1": true

@@ -39,7 +39,8 @@
         "decimals": 18,
         "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/27mn0a6a5DJeUxcJnZr7pb/8a28d743d65bf35dfbb2e63ba2af7f61/brandmark_-_square_-_Sam_Thompson.png"
       },
-      "sybilResistanceType": "Proof of Authority"
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://subnets.avax.network/playa3ull"
     }
   ],
   "isL1": true

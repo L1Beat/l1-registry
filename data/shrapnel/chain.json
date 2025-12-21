@@ -40,7 +40,8 @@
         "decimals": 18,
         "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/3bCKwLkE3vlwnMr52R0RXr/fe8ac511db870a7487986795cb14621e/token-logo.png"
       },
-      "sybilResistanceType": "Proof of Authority"
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://subnets.avax.network/shrapnel"
     }
   ],
   "isL1": true

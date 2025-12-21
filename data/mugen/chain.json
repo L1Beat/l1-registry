@@ -22,8 +22,12 @@
       "evmChainId": 29111,
       "vmName": "EVM",
       "vmId": "b4NW8Cm5c1UEjiP7pLfCKjhfpGQMp3KEvKvFzG9XsHhuUrQGa",
+      "explorerUrl": "https://subnets.avax.network/mugen",
       "rpcUrls": [],
       "nativeToken": {
+        "symbol": "MGN",
+        "name": "MGN",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

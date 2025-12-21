@@ -24,7 +24,8 @@
         "decimals": 18,
         "logoUri": ""
       },
-      "sybilResistanceType": "Proof of Authority"
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://subnets.avax.network/qr0723t1ms"
     }
   ],
   "isL1": true

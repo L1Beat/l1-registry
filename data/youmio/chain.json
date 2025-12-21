@@ -26,7 +26,8 @@
         "decimals": 18,
         "logoUri": ""
       },
-      "sybilResistanceType": "Proof of Authority"
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://explorer.avax.network/youmio"
     }
   ],
   "isL1": true

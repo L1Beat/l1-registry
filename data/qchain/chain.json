@@ -43,7 +43,8 @@
         "decimals": 18,
         "logoUri": ""
       },
-      "sybilResistanceType": "Proof of Authority"
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://subnets.avax.network/qchain"
     }
   ],
   "isL1": true

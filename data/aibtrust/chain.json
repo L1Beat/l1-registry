@@ -24,7 +24,8 @@
         "decimals": 18,
         "logoUri": ""
       },
-      "sybilResistanceType": "Proof of Authority"
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://subnets.avax.network/aibmainnet"
     }
   ],
   "isL1": true

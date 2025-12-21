@@ -27,7 +27,8 @@
         "decimals": 18,
         "logoUri": ""
       },
-      "sybilResistanceType": "Proof of Authority"
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://subnets.avax.network/dinari"
     }
   ],
   "isL1": true
