@@ -5,20 +5,20 @@
     "INFRA"
   ],
   "name": "Andromeda",
-  "description": "Andromeda is an Avalanche L1 blockchain powered by the EVM.",
+  "description": "",
   "logo": "",
-  "website": "https://www.avax.network",
+  "website": "",
   "socials": [],
   "chains": [
     {
       "blockchainId": "2q1BQuzcC9wgrb4icy8XD9ZXS8AxUscQNxLA2J2zTJA6hZgjwE",
       "name": "Andromeda",
-      "description": "Andromeda is an Avalanche L1 blockchain powered by the EVM.",
+      "description": "",
       "evmChainId": 241121,
       "vmName": "EVM",
       "vmId": "VpMTVPyWY8VJ6TrD925B9n2FGWXZSQKTAb4qGJKzWqgReoSiL",
-      "sybilResistanceType": "Proof of Stake",
-      "explorerUrl": "https://explorer.avax.network/andromeda/details",
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://explorer.avax.network/andromeda",
       "rpcUrls": [
         "https://subnets.avax.network/andromeda/mainnet/rpc"
       ],

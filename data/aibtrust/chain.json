@@ -19,6 +19,9 @@
       "vmId": "VkeZMFzYTFXZeDMMfniZscbUX1SR8mydk7ZhzAPKfuvwuehxc",
       "rpcUrls": [],
       "nativeToken": {
+        "symbol": "AIB",
+        "name": "AIB",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"
