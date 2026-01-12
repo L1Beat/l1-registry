@@ -1,0 +1,37 @@
+{
+  "subnetId": "2qZWoi4PSG69vdYAQ9otTxMGmRh8YgAXEsm4HMbZZkMamibU76",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": ["Gaming", "NFT", "Creative"],
+  "name": "The Grotto",
+  "description": "The Grotto is a Layer 1 blockchain and application suite tailored to the creative underground. Developed by The City, LLC and set within the surreal and dystopian universe of Analog Distortions, The Grotto is a living platform that empowers creators to distribute their games, art, and tools in a direct and decentralized way.",
+  "logo": "https://images.ctfassets.net/gcj8jwzm6086/4sgdcTE88G2b54KE7ON4GD/645f62855db3fce216c7f1b422b97e05/2026-01-11_22.56.22a.png",
+  "website": "https://www.enterthegrotto.xyz/",
+  "socials": [
+    {
+      "name": "twitter",
+      "url": "https://x.com/thegrottol1"
+    }
+  ],
+  "chains": [
+    {
+      "blockchainId": "axF6i526AKGeduJeA6PQ8ewGQhtLoy2VFgxR9fknWnpf8iiFD",
+      "name": "TheGrotto",
+      "description": "L1 blockchain for indie developers, musicians, visual artists, and players focused on games, art, and creative tools distribution",
+      "evmChainId": 36463,
+      "vmName": "EVM",
+      "vmId": "eB5rrkpqpBxy3veQrbSs1jjio2driCqay1e4Apcj3WrWjgeDQ",
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://explorer.avax.network/thegrotto",
+      "rpcUrls": [
+        "https://subnets.avax.network/thegrotto/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "HERESY",
+        "name": "HERESY",
+        "decimals": 18,
+        "logoUri": "https://images.ctfassets.net/gcj8jwzm6086/4sgdcTE88G2b54KE7ON4GD/645f62855db3fce216c7f1b422b97e05/2026-01-11_22.56.22a.png"
+      }
+    }
+  ]
+}
