@@ -1,6 +1,6 @@
 {
   "name": "l1beat-l1-registry",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Community-maintained registry of Avalanche L1 chains",
   "main": "index.js",
   "files": [
