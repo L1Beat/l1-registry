@@ -36,7 +36,7 @@
       "evmChainId": 10507,
       "vmName": "EVM",
       "vmId": "qeX7kcVMMkVLB9ZJKTpvtSjpLbtYooNEdpFzFShwRTFu76qdx",
-      "rpcUrls": [],
+      "rpcUrls": ["https://mainnetrpc.num.network"],
       "nativeToken": {
         "logoUri": ""
       },

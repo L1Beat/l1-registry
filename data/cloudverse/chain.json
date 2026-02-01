@@ -17,7 +17,7 @@
       "evmChainId": 33210,
       "vmName": "EVM",
       "vmId": "kneE28g9GLPd1k5admf4EyHhWZGMJRNTQbzy4sS3UiCvBjW2B",
-      "rpcUrls": [],
+      "rpcUrls": ["https://subnets.avax.network/cloudverse/mainnet/rpc"],
       "nativeToken": {
         "logoUri": ""
       },

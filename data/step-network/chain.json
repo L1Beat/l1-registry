@@ -30,7 +30,7 @@
       "evmChainId": 1234,
       "vmName": "EVM",
       "vmId": "dkjnKTbCTozMmvJJETzrz8sYVs7vSKzkGShHoa493UcQEweU6",
-      "rpcUrls": [],
+      "rpcUrls": ["https://rpc.step.network"],
       "nativeToken": {
         "logoUri": ""
       },

@@ -36,7 +36,7 @@
       "evmChainId": 7979,
       "vmName": "EVM",
       "vmId": "X5tFvg9JwoXgaYPQbceSzhGoCF6dhwrDm5BnAav6meFp3xxmg",
-      "rpcUrls": [],
+      "rpcUrls": ["https://main.doschain.com"],
       "nativeToken": {
         "logoUri": ""
       },
