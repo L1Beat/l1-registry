@@ -17,7 +17,7 @@
       "evmChainId": 836,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": ["https://rpc-archive-mainnetbinaryholdings.cogitus.io/ext/bc/J3MYb3rDARLmB7FrRybinyjKqVTqmerbCr9bAXDatrSaHiLxQ/rpc"],
+      "rpcUrls": ["https://rpc-binary-mainnet.cogitus.io/ext/bc/J3MYb3rDARLmB7FrRybinyjKqVTqmerbCr9bAXDatrSaHiLxQ/rpc"],
       "nativeToken": {
         "logoUri": ""
       },
