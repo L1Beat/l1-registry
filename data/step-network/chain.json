@@ -32,6 +32,9 @@
       "vmId": "dkjnKTbCTozMmvJJETzrz8sYVs7vSKzkGShHoa493UcQEweU6",
       "rpcUrls": ["https://rpc.step.network"],
       "nativeToken": {
+        "symbol": "FITFI",
+        "name": "FITFI",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

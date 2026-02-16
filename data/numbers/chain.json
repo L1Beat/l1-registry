@@ -38,6 +38,9 @@
       "vmId": "qeX7kcVMMkVLB9ZJKTpvtSjpLbtYooNEdpFzFShwRTFu76qdx",
       "rpcUrls": ["https://mainnetrpc.num.network"],
       "nativeToken": {
+        "symbol": "NUM",
+        "name": "NUM",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"
