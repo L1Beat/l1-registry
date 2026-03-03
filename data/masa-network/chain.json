@@ -21,6 +21,9 @@
         "https://subnets.avax.network/masanetwork/mainnet/rpc"
       ],
       "nativeToken": {
+        "symbol": "MASA",
+        "name": "Masa Token",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

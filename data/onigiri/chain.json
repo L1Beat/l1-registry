@@ -26,6 +26,9 @@
         "https://subnets.avax.network/onigiri/mainnet/rpc"
       ],
       "nativeToken": {
+        "symbol": "ONGR",
+        "name": "ONIGIRI",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

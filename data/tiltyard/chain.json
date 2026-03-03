@@ -30,6 +30,9 @@
         "https://subnets.avax.network/tiltyard/mainnet/rpc"
       ],
       "nativeToken": {
+        "symbol": "TILT",
+        "name": "TILT",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

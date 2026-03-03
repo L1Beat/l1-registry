@@ -34,6 +34,9 @@
         "https://subnets.avax.network/playdappne/mainnet/rpc"
       ],
       "nativeToken": {
+        "symbol": "PDA",
+        "name": "Playdapp",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

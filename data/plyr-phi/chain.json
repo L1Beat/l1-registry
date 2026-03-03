@@ -38,6 +38,9 @@
         "https://subnets.avax.network/plyr/mainnet/rpc"
       ],
       "nativeToken": {
+        "symbol": "PLYR",
+        "name": "PLYR",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

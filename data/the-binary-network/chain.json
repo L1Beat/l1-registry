@@ -19,6 +19,9 @@
       "vmId": "",
       "rpcUrls": ["https://rpc-binary-mainnet.cogitus.io/ext/bc/J3MYb3rDARLmB7FrRybinyjKqVTqmerbCr9bAXDatrSaHiLxQ/rpc"],
       "nativeToken": {
+        "symbol": "BNRY",
+        "name": "Binary",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

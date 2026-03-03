@@ -39,6 +39,9 @@
         "https://subnets.avax.network/meld/mainnet/rpc"
       ],
       "nativeToken": {
+        "symbol": "gMELD",
+        "name": "gMeld",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

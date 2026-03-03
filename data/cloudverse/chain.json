@@ -19,6 +19,9 @@
       "vmId": "kneE28g9GLPd1k5admf4EyHhWZGMJRNTQbzy4sS3UiCvBjW2B",
       "rpcUrls": ["https://subnets.avax.network/cloudverse/mainnet/rpc"],
       "nativeToken": {
+        "symbol": "XCLOUD",
+        "name": "XCLOUD",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"
