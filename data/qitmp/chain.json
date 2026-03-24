@@ -1,0 +1,28 @@
+{
+  "subnetId": "zyFA4spxvch6uxHi4xdUq9HZUeu4sdVmLnbQgxqnCyxBfTPtu",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": [],
+  "name": "QITMP",
+  "description": "",
+  "logo": "",
+  "website": "",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "j8AuGyUzS65acGgev6SNmYMKb8wMuu2ZF2wYHKTVV8qt3zLtK",
+      "name": "QITMP",
+      "evmChainId": null,
+      "vmName": "EVM",
+      "vmId": "rwvtD5rcXQNhifC7mPjZ5G8h74mc3CQcX7w7HY8d6ruiRji16",
+      "sybilResistanceType": "Proof of Authority",
+      "rpcUrls": [],
+      "nativeToken": {
+        "symbol": "",
+        "name": "",
+        "decimals": 18,
+        "logoUri": ""
+      }
+    }
+  ]
+}

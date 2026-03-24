@@ -1,0 +1,35 @@
+{
+  "subnetId": "2CbrU1NryeqBiA5cP8GCjyosVrRfQzT6WpKzFfwgEzoLDRdysn",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": ["AI"],
+  "name": "Kite Staging 2",
+  "description": "Kite AI staging environment on the Avalanche network.",
+  "logo": "",
+  "website": "https://gokite.ai/",
+  "socials": [
+    {
+      "name": "twitter",
+      "url": "https://x.com/gokiteai"
+    }
+  ],
+  "chains": [
+    {
+      "blockchainId": "2Z2nhHSGKWYweBCV2fcYWYVKXq1mTgnX6xMpKCbL2xV2Q2JcCt",
+      "name": "Kite Staging 2",
+      "evmChainId": 2368,
+      "vmName": "EVM",
+      "vmId": "pJhESEjFZybsWrKhgtMTBLKPdUjSpteB9x4MjDJYTjHr2xZk4",
+      "sybilResistanceType": "Proof of Authority",
+      "rpcUrls": [
+        "https://rpc-testnet.gokite.ai/"
+      ],
+      "nativeToken": {
+        "symbol": "KITE",
+        "name": "Kite AI",
+        "decimals": 18,
+        "logoUri": ""
+      }
+    }
+  ]
+}

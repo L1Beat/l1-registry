@@ -1,0 +1,28 @@
+{
+  "subnetId": "QwUV3oUNbFVEybi3S7KLrJygZit8tJFqe32oSQiVY1ziCsckL",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": [],
+  "name": "Metafi Chain",
+  "description": "",
+  "logo": "",
+  "website": "",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "oPM1KtENTsLc8FyzZUYCbUGdiGbAD43P89FzY2pmoc738yjUj",
+      "name": "Metafi Chain",
+      "evmChainId": null,
+      "vmName": "EVM",
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
+      "sybilResistanceType": "Proof of Authority",
+      "rpcUrls": [],
+      "nativeToken": {
+        "symbol": "",
+        "name": "",
+        "decimals": 18,
+        "logoUri": ""
+      }
+    }
+  ]
+}

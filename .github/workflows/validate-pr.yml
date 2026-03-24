@@ -96,6 +96,157 @@ jobs:
               print("✅ All required fields present")
           EOF
 
+      - name: Validate data integrity
+        run: |
+          echo "Running data integrity checks..."
+          python3 << 'EOF'
+          import json
+          import re
+          import os
+          import subprocess
+          from pathlib import Path
+
+          errors = []
+          warnings = []
+
+          TEMPLATE_STRINGS = [
+              'subnet-id-here', 'blockchain-id-here', 'chain-slug',
+              'vm-id-here', 'rpc-url-here', 'Chain Name', 'My Chain',
+              'Describe your', 'https://your-', 'TEMPLATE',
+          ]
+
+          URL_PATTERN = re.compile(r'^https?://[^\s/$.?#].[^\s]*$')
+
+          def has_template_value(obj, path=''):
+              if isinstance(obj, str):
+                  for t in TEMPLATE_STRINGS:
+                      if t.lower() in obj.lower():
+                          return f"template placeholder at '{path}': {obj!r}"
+              elif isinstance(obj, dict):
+                  for k, v in obj.items():
+                      r = has_template_value(v, f"{path}.{k}")
+                      if r: return r
+              elif isinstance(obj, list):
+                  for i, v in enumerate(obj):
+                      r = has_template_value(v, f"{path}[{i}]")
+                      if r: return r
+              return None
+
+          all_chains = []
+          for chain_json in Path('data').rglob('chain.json'):
+              if '_TEMPLATE' in str(chain_json) or 'node_modules' in str(chain_json):
+                  continue
+              try:
+                  with open(chain_json) as f:
+                      data = json.load(f)
+                  all_chains.append((str(chain_json), chain_json.parent.name, data))
+              except Exception as e:
+                  errors.append(f"{chain_json}: failed to parse - {e}")
+
+          changed_folders = set()
+          is_pr = os.environ.get('GITHUB_EVENT_NAME') == 'pull_request'
+          if is_pr:
+              try:
+                  base_ref = os.environ.get('GITHUB_BASE_REF', 'main')
+                  result = subprocess.run(
+                      ['git', 'diff', '--name-only', f'origin/{base_ref}...HEAD'],
+                      capture_output=True, text=True
+                  )
+                  for line in result.stdout.strip().splitlines():
+                      if line.startswith('data/') and 'chain.json' in line:
+                          parts = line.split('/')
+                          if len(parts) >= 2:
+                              changed_folders.add(parts[1])
+              except Exception as e:
+                  print(f"Warning: could not detect changed files - {e}")
+
+          # CHECK 1: Category casing (all files, BLOCKING)
+          for _, folder, data in all_chains:
+              for cat in data.get('categories', []):
+                  if isinstance(cat, str) and cat != cat.upper():
+                      errors.append(f"{folder}: category '{cat}' must be uppercase - use '{cat.upper()}'")
+
+          # CHECK 2: Template value rejection (all files, BLOCKING)
+          for _, folder, data in all_chains:
+              result = has_template_value(data, folder)
+              if result:
+                  errors.append(f"{folder}: {result}")
+
+          # CHECK 3: URL format validation (non-empty values only, BLOCKING)
+          for _, folder, data in all_chains:
+              for field in ['logo', 'website']:
+                  url = data.get(field, '')
+                  if url and not URL_PATTERN.match(url):
+                      errors.append(f"{folder}: '{field}' is not a valid URL: {url!r}")
+              for social in data.get('socials', []):
+                  url = social.get('url', '')
+                  if url and not URL_PATTERN.match(url):
+                      errors.append(f"{folder}: social url is not a valid URL: {url!r}")
+              for chain in data.get('chains', []):
+                  for rpc in chain.get('rpcUrls', []):
+                      if rpc and not URL_PATTERN.match(rpc):
+                          errors.append(f"{folder}: rpcUrl is not a valid URL: {rpc!r}")
+                  nt = chain.get('nativeToken', {})
+                  logo_uri = nt.get('logoUri', '') if isinstance(nt, dict) else ''
+                  if logo_uri and not URL_PATTERN.match(logo_uri):
+                      errors.append(f"{folder}: nativeToken.logoUri is not a valid URL: {logo_uri!r}")
+
+          # CHECK 4: nativeToken completeness (changed PR files = BLOCK, all files logoUri = WARN)
+          for _, folder, data in all_chains:
+              for idx, chain in enumerate(data.get('chains', [])):
+                  nt = chain.get('nativeToken', {})
+                  if not isinstance(nt, dict):
+                      continue
+                  if is_pr and folder in changed_folders:
+                      for field in ['symbol', 'name', 'decimals']:
+                          val = nt.get(field)
+                          if val is None or val == '':
+                              errors.append(f"{folder}: chains[{idx}].nativeToken.{field} required and cannot be empty")
+                      evm_id = chain.get('evmChainId')
+                      if evm_id is None:
+                          errors.append(f"{folder}: chains[{idx}].evmChainId cannot be null - assign a chain ID before merging")
+                  logo_uri = nt.get('logoUri', '')
+                  if logo_uri == '' or logo_uri is None:
+                      warnings.append(f"{folder}: chains[{idx}].nativeToken.logoUri is empty (warning only)")
+
+          # CHECK 5: Unique subnetId (skip empty strings, BLOCKING)
+          seen_subnet_ids = {}
+          for _, folder, data in all_chains:
+              sid = data.get('subnetId', '')
+              if sid:
+                  if sid in seen_subnet_ids:
+                      errors.append(f"{folder}: duplicate subnetId '{sid}' already used by '{seen_subnet_ids[sid]}'")
+                  else:
+                      seen_subnet_ids[sid] = folder
+
+          # CHECK 6: Unique evmChainId (skip null, BLOCKING)
+          seen_evm_ids = {}
+          for _, folder, data in all_chains:
+              for idx, chain in enumerate(data.get('chains', [])):
+                  eid = chain.get('evmChainId')
+                  if eid is not None:
+                      key = str(eid)
+                      if key in seen_evm_ids:
+                          errors.append(f"{folder}: chains[{idx}].evmChainId {eid} already used by '{seen_evm_ids[key]}'")
+                      else:
+                          seen_evm_ids[key] = folder
+
+          if warnings:
+              print("Warnings (non-blocking):")
+              for w in warnings[:20]:
+                  print(f"  - {w}")
+              if len(warnings) > 20:
+                  print(f"  ... and {len(warnings) - 20} more")
+
+          if errors:
+              print("\nData integrity errors (blocking):")
+              for e in errors:
+                  print(f"  ERROR: {e}")
+              exit(1)
+          else:
+              print("Data integrity checks passed")
+          EOF
+
       - name: Check folder naming convention
         run: |
           echo "Checking folder naming conventions..."

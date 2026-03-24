@@ -1,0 +1,36 @@
+{
+  "subnetId": "21uUaTxVdR3Sp6SJhpcSrdH1g66aFoE8mPQDvwKJCjXNexo5y6",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": ["AI"],
+  "name": "Kite AI",
+  "description": "Purpose-built EVM-compatible Layer 1 designed to power the AI economy with Proof of Attributed Intelligence (PoAI) consensus.",
+  "logo": "",
+  "website": "https://gokite.ai/",
+  "socials": [
+    {
+      "name": "twitter",
+      "url": "https://x.com/gokiteai"
+    }
+  ],
+  "chains": [
+    {
+      "blockchainId": "3USaEfTcoUhHxpKXvpAG916UKCUEyjrtkg2hBArBG3JyDP7my",
+      "name": "Kite AI",
+      "evmChainId": 2366,
+      "vmName": "EVM",
+      "vmId": "pJhES6xZkqZxjxMqHiucbpBTTnB97EjL5aTYSynmWBoF26v9e",
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://kitescan.ai/",
+      "rpcUrls": [
+        "https://rpc.gokite.ai/"
+      ],
+      "nativeToken": {
+        "symbol": "KITE",
+        "name": "Kite AI",
+        "decimals": 18,
+        "logoUri": ""
+      }
+    }
+  ]
+}

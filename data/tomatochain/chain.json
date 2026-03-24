@@ -1,0 +1,30 @@
+{
+  "subnetId": "",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": [],
+  "name": "Tomatochain",
+  "description": "",
+  "logo": "",
+  "website": "",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "",
+      "name": "Tomatochain",
+      "evmChainId": 77294,
+      "vmName": "EVM",
+      "vmId": "",
+      "sybilResistanceType": "Proof of Authority",
+      "rpcUrls": [
+        "https://subnets.avax.network/ttchain/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "TTC",
+        "name": "TTC Token",
+        "decimals": 18,
+        "logoUri": ""
+      }
+    }
+  ]
+}

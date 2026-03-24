@@ -1,0 +1,28 @@
+{
+  "subnetId": "BBAZaHw9CJHS9Jk6sgeFiAr3iV3pCFX8ATu9t1CWgPo2Y3kuJ",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": [],
+  "name": "Time For Africa",
+  "description": "",
+  "logo": "",
+  "website": "",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "2963rgiqdduw58CEAxyJ5wGESnPRyYbTMNzbJzaywVQfNNMv9g",
+      "name": "Time For Africa",
+      "evmChainId": null,
+      "vmName": "EVM",
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
+      "sybilResistanceType": "Proof of Authority",
+      "rpcUrls": [],
+      "nativeToken": {
+        "symbol": "",
+        "name": "",
+        "decimals": 18,
+        "logoUri": ""
+      }
+    }
+  ]
+}

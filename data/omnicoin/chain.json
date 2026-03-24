@@ -1,0 +1,28 @@
+{
+  "subnetId": "27dmQbsGrm4xo9VfrxNSewccy3kZ6N49MuSNJhsdhKkMaTZcYv",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": [],
+  "name": "Omnicoin",
+  "description": "",
+  "logo": "",
+  "website": "",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "B5gLCyeRWScxf1CeGHfXjEkcp5au8dQYQjtSV6cRammsLjsbK",
+      "name": "Omnicoin",
+      "evmChainId": null,
+      "vmName": "EVM",
+      "vmId": "r5GNgqn5KRsHiukwCxED8QSdNavArKMvdVfvkTHn36yzgrum1",
+      "sybilResistanceType": "Proof of Authority",
+      "rpcUrls": [],
+      "nativeToken": {
+        "symbol": "",
+        "name": "",
+        "decimals": 18,
+        "logoUri": ""
+      }
+    }
+  ]
+}

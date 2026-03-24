@@ -1,0 +1,28 @@
+{
+  "subnetId": "Ni8pAzPXhQvMGk2qpR15BYvFfRMV24vpayDPKCWf75SjeEShR",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": [],
+  "name": "MakaChain",
+  "description": "",
+  "logo": "",
+  "website": "https://makachain.io/",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "2TfGh1pyDoumsDgTxDmWoseRD7GGRwrpX19HLsQdeCRqwK9BqZ",
+      "name": "MakaChain",
+      "evmChainId": null,
+      "vmName": "EVM",
+      "vmId": "b5amPLN8M6tx2djD6FwChxEaV9Gtnyjp2aQU54E5xvCz66sfz",
+      "sybilResistanceType": "Proof of Authority",
+      "rpcUrls": [],
+      "nativeToken": {
+        "symbol": "",
+        "name": "",
+        "decimals": 18,
+        "logoUri": ""
+      }
+    }
+  ]
+}

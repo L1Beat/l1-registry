@@ -1,0 +1,28 @@
+{
+  "subnetId": "HusPFVgi8tADbk7LQmuQktL3rEQYHaXG7BKGKzX6AVmFyx6NJ",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": ["GAMING"],
+  "name": "Paradise Chain",
+  "description": "Custom Avalanche L1 optimized for gaming, supporting Paradise Tycoon and other games in the Paradise IP.",
+  "logo": "",
+  "website": "https://paradisechain.net/",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "2je7t3iKV4sJRVeCH3sbKSSjRR7DjkbzFEKYzsncBiKJWsaf5j",
+      "name": "Paradise Chain",
+      "evmChainId": null,
+      "vmName": "EVM",
+      "vmId": "rVcYqjBoPNnnk2n5Qp5hEuvZtWDqFmN2587EwFWjrfn4oLvac",
+      "sybilResistanceType": "Proof of Authority",
+      "rpcUrls": [],
+      "nativeToken": {
+        "symbol": "MOANI",
+        "name": "MOANI",
+        "decimals": 18,
+        "logoUri": ""
+      }
+    }
+  ]
+}

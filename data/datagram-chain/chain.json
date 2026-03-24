@@ -1,0 +1,31 @@
+{ 
+  "subnetId": "iXy5GJp51bDjMnwxn7TMQ28eVbx5KBTcJGsWgZznrEBRBvTbx",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": ["DEPIN"],
+  "name": "Datagram Chain",
+  "description": "DePIN connectivity network and Layer 1 blockchain for decentralized infrastructure.",
+  "logo": "",
+  "website": "https://datagram.network/",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "2DF23zvdaAtTUi2YsvXorDqQKjGF7Mr5cymG53koQuKx2KFZpx",
+      "name": "Datagram Chain",
+      "evmChainId": 968,
+      "vmName": "EVM",
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://explorer.datagram.network",
+      "rpcUrls": [
+        "https://mainnet.datagram.network/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "DGRAM",
+        "name": "DGRAM",
+        "decimals": 18,
+        "logoUri": ""
+      }
+    }
+  ]
+}

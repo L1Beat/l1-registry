@@ -1,0 +1,28 @@
+{
+  "subnetId": "5pJqc6dvKDdNaigCTc9dkAifxLcmvMipvA9Q1b1oJRpN5VX8u",
+  "isL1": true,
+  "network": "mainnet",
+  "categories": [],
+  "name": "RWA Chain",
+  "description": "",
+  "logo": "",
+  "website": "",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "xFwrfjdyhZRFbMUbGY3TjxM58iNxwkRazHL91xxwwnhRuUi8L",
+      "name": "RWA Chain",
+      "evmChainId": null,
+      "vmName": "EVM",
+      "vmId": "sQtYoYUcyfpXYoAnRqs8cJbHhrg6yWxoHBAowZeZe8VfzfWSp",
+      "sybilResistanceType": "Proof of Authority",
+      "rpcUrls": [],
+      "nativeToken": {
+        "symbol": "",
+        "name": "",
+        "decimals": 18,
+        "logoUri": ""
+      }
+    }
+  ]
+}
