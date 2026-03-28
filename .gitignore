@@ -21,6 +21,11 @@ yarn-error.log*
 dist/
 build/
 
+# Enrichment script outputs
+enrichment-report.json
+enrichment-errors.log
+validation-report.md
+
 # Environment files
 .env
 .env.local

@@ -142,7 +142,9 @@ async function enrichChain(folder) {
           chain.nativeToken = {};
         }
 
-        if (!chain.nativeToken.logoUri) {
+        if (!chain.nativeToken.logoUri && chain.nativeToken.logoUri !== '') {
+          // Only enrich if logoUri has never been set (undefined/null).
+          // An empty string means it was previously checked and no logo was found.
           const logoUri = findLogoUriForBlockchain(chain.blockchainId);
           if (logoUri) {
             chain.nativeToken.logoUri = logoUri;

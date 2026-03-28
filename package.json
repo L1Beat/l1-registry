@@ -3,15 +3,18 @@
   "version": "1.2.8",
   "description": "Community-maintained registry of Avalanche L1 chains",
   "main": "index.js",
+  "types": "types.d.ts",
   "files": [
     "data/**/*",
     "scripts/**/*",
     "index.js",
+    "types.d.ts",
+    "chain.schema.json",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
-    "validate": "node ../L1Beat-backend/src/scripts/validateChainsRegistry.js",
+    "validate": "node scripts/validate-all.js",
     "validate:single": "./scripts/validate-single.sh"
   },
   "repository": {

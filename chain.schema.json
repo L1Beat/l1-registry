@@ -1,0 +1,198 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Avalanche L1 Chain Registry Entry",
+  "description": "Schema for chain.json files in the l1-registry",
+  "type": "object",
+  "required": [
+    "subnetId",
+    "network",
+    "categories",
+    "name",
+    "description",
+    "logo",
+    "website",
+    "socials",
+    "chains"
+  ],
+  "properties": {
+    "subnetId": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique Avalanche subnet identifier"
+    },
+    "isL1": {
+      "type": "boolean",
+      "description": "Whether this subnet has been converted to an L1"
+    },
+    "network": {
+      "type": "string",
+      "enum": ["mainnet", "fuji"],
+      "description": "Network environment"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z0-9]+$"
+      },
+      "minItems": 1,
+      "description": "Classification categories (uppercase, e.g., DEFI, GAMING)"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Official chain name"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 500,
+      "description": "Brief description of the chain (20-500 characters)"
+    },
+    "logo": {
+      "type": "string",
+      "description": "URL to the chain's logo image"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official website URL"
+    },
+    "socials": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Social"
+      },
+      "description": "Social media links"
+    },
+    "chains": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Blockchain"
+      },
+      "minItems": 1,
+      "description": "Blockchains within this subnet"
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "Social": {
+      "type": "object",
+      "required": ["name", "url"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": [
+            "twitter",
+            "discord",
+            "telegram",
+            "github",
+            "medium",
+            "linkedin",
+            "youtube",
+            "reddit"
+          ],
+          "description": "Social platform name"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to the social media profile"
+        }
+      },
+      "additionalProperties": false
+    },
+    "NativeToken": {
+      "type": "object",
+      "required": ["symbol", "name", "decimals"],
+      "properties": {
+        "symbol": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Token ticker symbol (e.g., AVAX, BEAM)"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Full token name"
+        },
+        "decimals": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 36,
+          "description": "Number of decimal places"
+        },
+        "logoUri": {
+          "type": "string",
+          "description": "URL to the token logo image"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Blockchain": {
+      "type": "object",
+      "required": [
+        "blockchainId",
+        "name",
+        "evmChainId",
+        "vmName",
+        "vmId",
+        "rpcUrls"
+      ],
+      "properties": {
+        "blockchainId": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Unique Avalanche blockchain identifier"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable blockchain name"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the blockchain"
+        },
+        "evmChainId": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "EVM-compatible chain ID (EIP-155)"
+        },
+        "vmName": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Virtual machine name (e.g., EVM, SubnetEVM)"
+        },
+        "vmId": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Virtual machine identifier"
+        },
+        "sybilResistanceType": {
+          "type": "string",
+          "enum": ["Proof of Stake", "Proof of Authority"],
+          "description": "Consensus mechanism type"
+        },
+        "explorerUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "Block explorer URL"
+        },
+        "rpcUrls": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "minItems": 1,
+          "description": "Array of JSON-RPC endpoint URLs"
+        },
+        "nativeToken": {
+          "$ref": "#/definitions/NativeToken"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
