@@ -382,6 +382,10 @@ jobs:
                   print(f"  - {warning}")
           else:
               print("All URLs are reachable")
+
+          # Save warnings for the report step
+          with open('url-warnings.json', 'w') as f:
+              json.dump(warnings, f)
           EOF
 
       - name: Validate RPC endpoints
@@ -457,6 +461,10 @@ jobs:
                   print(f"  - {warning}")
           else:
               print("All RPC endpoints are responding")
+
+          # Save warnings for the report step
+          with open('rpc-warnings.json', 'w') as f:
+              json.dump(warnings, f)
           EOF
 
       - name: Check content quality
@@ -509,6 +517,10 @@ jobs:
                   print(f"  ... and {len(warnings) - 20} more warnings")
           else:
               print("Content quality checks passed")
+
+          # Save warnings for the report step
+          with open('quality-warnings.json', 'w') as f:
+              json.dump(warnings, f)
           EOF
 
       - name: Get changed files
@@ -535,127 +547,35 @@ jobs:
           echo "Generating validation summary report..."
           python3 << 'EOF'
           import json
-          import urllib.request
-          import urllib.error
-          from pathlib import Path
-          import time
           import os
-          import subprocess
+          from pathlib import Path
 
-          # Collect all validation results
-          url_warnings = []
-          rpc_warnings = []
-          quality_warnings = []
-
-          def check_url(url, timeout=5):
-              if not url or url.strip() == '':
-                  return False, "Empty URL"
+          def load_warnings(filename):
               try:
-                  req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-                  with urllib.request.urlopen(req, timeout=timeout) as response:
-                      return response.status == 200, f"OK"
-              except Exception as e:
-                  return False, str(e)[:50]
+                  with open(filename) as f:
+                      return json.load(f)
+              except (FileNotFoundError, json.JSONDecodeError):
+                  return []
 
-          def check_rpc(rpc_url, timeout=5):
-              if not rpc_url or rpc_url.strip() == '':
-                  return False, "Empty"
-              try:
-                  data = json.dumps({
-                      "jsonrpc": "2.0",
-                      "method": "eth_blockNumber",
-                      "params": [],
-                      "id": 1
-                  }).encode('utf-8')
-                  req = urllib.request.Request(rpc_url, data=data, headers={'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'})
-                  with urllib.request.urlopen(req, timeout=timeout) as response:
-                      result = json.loads(response.read().decode('utf-8'))
-                      return 'result' in result or 'error' in result, "OK"
-              except Exception as e:
-                  return False, str(e)[:50]
+          # Load warnings saved by earlier validation steps
+          url_warnings = load_warnings('url-warnings.json')
+          rpc_warnings = load_warnings('rpc-warnings.json')
+          quality_warnings = load_warnings('quality-warnings.json')
 
-          # Get changed files from git diff (only for PRs)
-          changed_files = []
+          # Count total chains
+          chain_count = sum(
+              1 for p in Path('data').iterdir()
+              if p.is_dir() and not p.name.startswith('.') and not p.name.startswith('_')
+              and (p / 'chain.json').exists()
+          )
+
           is_pr = os.environ.get('GITHUB_EVENT_NAME') == 'pull_request'
+          scope = "in registry" if not is_pr else "in this PR"
 
-          if is_pr:
-              try:
-                  base_ref = os.environ.get('GITHUB_BASE_REF', 'main')
-                  result = subprocess.run(
-                      ['git', 'diff', '--name-only', f'origin/{base_ref}...HEAD'],
-                      capture_output=True,
-                      text=True
-                  )
-                  changed_files = [
-                      f.strip() for f in result.stdout.split('\n')
-                      if 'data/' in f and 'chain.json' in f and '_TEMPLATE' not in f
-                  ]
-              except Exception as e:
-                  print(f"Could not get changed files: {e}")
-                  changed_files = []
-
-          # If no changed files or not a PR, check first 10 chains
-          chain_count = 0
-          files_to_check = []
-
-          if changed_files:
-              files_to_check = [Path(f) for f in changed_files if Path(f).exists()]
-              print(f"Checking {len(files_to_check)} changed chain(s) in this PR")
-          else:
-              # Fallback: check first 10 chains
-              for chain_json in Path('data').rglob('chain.json'):
-                  if '_TEMPLATE' not in str(chain_json) and chain_count < 10:
-                      files_to_check.append(chain_json)
-                      chain_count += 1
-              print(f"Checking first {len(files_to_check)} chains (no PR changes detected)")
-
-          chain_count = len(files_to_check)
-
-          # Check each file
-          for chain_json in files_to_check:
-              try:
-                  with open(chain_json) as f:
-                      data = json.load(f)
-
-                  folder = chain_json.parent.name
-
-                  # URL checks
-                  if data.get('website'):
-                      is_valid, msg = check_url(data['website'])
-                      if not is_valid:
-                          url_warnings.append(f"{folder}: Website issue - {msg}")
-
-                  if data.get('logo'):
-                      is_valid, msg = check_url(data['logo'])
-                      if not is_valid:
-                          url_warnings.append(f"{folder}: Logo issue - {msg}")
-
-                  # Quality checks
-                  desc = data.get('description', '').strip()
-                  if len(desc) < 20:
-                      quality_warnings.append(f"{folder}: Short description")
-
-                  if not data.get('chains') or len(data.get('chains', [])) == 0:
-                      quality_warnings.append(f"{folder}: No blockchains")
-
-                  # RPC checks
-                  for chain in data.get('chains', [])[:1]:
-                      for rpc_url in chain.get('rpcUrls', [])[:1]:
-                          if rpc_url:
-                              is_valid, msg = check_rpc(rpc_url)
-                              if not is_valid:
-                                  rpc_warnings.append(f"{folder}: RPC issue")
-
-                  time.sleep(0.3)
-              except:
-                  pass
-
-          # Create summary report
-          scope = "in this PR" if changed_files else "(sample)"
           report = "## Validation Report\n\n"
           report += "Status: All required validations passed\n\n"
           report += "### Summary\n"
-          report += f"- Chains checked {scope}: {chain_count}\n"
+          report += f"- Total chains in registry: {chain_count}\n"
           report += f"- URL warnings: {len(url_warnings)}\n"
           report += f"- RPC warnings: {len(rpc_warnings)}\n"
           report += f"- Quality warnings: {len(quality_warnings)}\n\n"

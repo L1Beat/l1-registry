@@ -18,7 +18,7 @@ function getDataPath() {
  */
 function loadChain(chainFolder) {
   try {
-    const chainPath = path.join(DATA_PATH, chainFolder, 'metadata.json');
+    const chainPath = path.join(DATA_PATH, chainFolder, 'chain.json');
     if (fs.existsSync(chainPath)) {
       const data = fs.readFileSync(chainPath, 'utf8');
       return JSON.parse(data);
@@ -41,7 +41,7 @@ function getAllChains() {
 
     for (const dir of dirs) {
       if (dir.isDirectory()) {
-        const chainPath = path.join(DATA_PATH, dir.name, 'metadata.json');
+        const chainPath = path.join(DATA_PATH, dir.name, 'chain.json');
         if (fs.existsSync(chainPath)) {
           try {
             const data = fs.readFileSync(chainPath, 'utf8');

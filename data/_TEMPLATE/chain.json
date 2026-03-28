@@ -2,7 +2,7 @@
   "subnetId": "subnet-id-here",
   "isL1": false,
   "network": "mainnet",
-  "categories": ["DeFi", "Gaming"],
+  "categories": ["DEFI", "GAMING"],
   "name": "Chain Name",
   "description": "Chain description here",
   "logo": "https://example.com/logo.png",
