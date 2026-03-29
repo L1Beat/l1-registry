@@ -11,6 +11,8 @@ on:
     paths:
       - 'data/*/chain.json'
       - 'data/*/README.md'
+      - 'scripts/**'
+      - '.github/workflows/validate-pr.yml'
 
 jobs:
   validate-structure:
