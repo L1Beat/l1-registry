@@ -1,0 +1,28 @@
+name: Scheduled Reachability Check
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Weekly on Monday at 6 AM UTC
+  workflow_dispatch: {}
+
+jobs:
+  check-all:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Check all URLs and RPC endpoints
+        run: node scripts/check-reachability.js --output-json reachability-results.json
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reachability-results
+          path: reachability-results.json

@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "validate": "node scripts/validate-all.js",
-    "validate:single": "./scripts/validate-single.sh"
+    "validate:single": "./scripts/validate-single.sh",
+    "validate:reachability": "node scripts/check-reachability.js"
   },
   "repository": {
     "type": "git",
