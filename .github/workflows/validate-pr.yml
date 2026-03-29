@@ -370,6 +370,10 @@ jobs:
               except Exception as e:
                   errors.append(f"{folder}: Error checking URLs - {str(e)}")
 
+          # Save warnings for the report step
+          with open('url-warnings.json', 'w') as f:
+              json.dump(warnings, f)
+
           if errors:
               print("Errors during URL validation:")
               for error in errors:
@@ -382,10 +386,6 @@ jobs:
                   print(f"  - {warning}")
           else:
               print("All URLs are reachable")
-
-          # Save warnings for the report step
-          with open('url-warnings.json', 'w') as f:
-              json.dump(warnings, f)
           EOF
 
       - name: Validate RPC endpoints

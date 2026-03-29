@@ -38,7 +38,7 @@ git checkout -b add-your-chain-name
    {
      "subnetId": "your-subnet-id",
      "network": "mainnet",
-     "categories": ["DeFi", "Gaming"],
+     "categories": ["DEFI", "GAMING"],
      "name": "Your Chain Name",
      "description": "Clear description of your chain",
      "logo": "https://your-logo-url.png",
@@ -115,7 +115,7 @@ git push origin add-your-chain-name
 #### L1 Level
 - `subnetId` (string) - Avalanche subnet ID
 - `network` (string) - "mainnet" or "fuji"
-- `categories` (array) - Categories like ["DeFi", "Gaming", "NFT"]
+- `categories` (array) - Categories like ["DEFI", "GAMING", "NFT"]
 - `name` (string) - Chain name
 - `description` (string) - Clear description
 - `logo` (string) - Logo URL (preferably HTTPS)

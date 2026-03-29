@@ -206,7 +206,7 @@ function main() {
     totalChains++;
   }
 
-  console.log(`\n${'='.join ? '=' : '━'.repeat(40)}`);
+  console.log(`\n${'━'.repeat(40)}`);
   console.log(`Validated ${totalChains} chains`);
   console.log(`  Errors: ${totalErrors}`);
   console.log(`  Warnings: ${totalWarnings}`);

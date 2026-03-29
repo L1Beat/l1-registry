@@ -47,7 +47,7 @@ function getAllChains() {
             const data = fs.readFileSync(chainPath, 'utf8');
             chains.push(JSON.parse(data));
           } catch (error) {
-            console.error(`Error parsing ${dir.name}/metadata.json:`, error.message);
+            console.error(`Error parsing ${dir.name}/chain.json:`, error.message);
           }
         }
       }
