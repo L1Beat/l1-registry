@@ -46,7 +46,7 @@ l1-registry/
 {
   "subnetId": "subnet-id-here",
   "network": "mainnet",
-  "categories": ["DeFi", "Gaming"],
+  "categories": ["DEFI", "GAMING"],
   "name": "Chain Name",
   "description": "Description of the chain",
   "logo": "https://cdn.example.com/logo.png",
@@ -155,14 +155,14 @@ You can search for chains by:
 
 Available categories:
 
-- DeFi
-- Gaming
+- DEFI
+- GAMING
 - NFT
-- Metaverse
-- Infrastructure
-- Finance
-- Social
-- Identity
+- METAVERSE
+- INFRASTRUCTURE
+- FINANCE
+- SOCIAL
+- IDENTITY
 - And many more...
 
 ## Data Source
