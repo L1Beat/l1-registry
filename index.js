@@ -40,7 +40,7 @@ function getAllChains() {
     const dirs = fs.readdirSync(DATA_PATH, { withFileTypes: true });
 
     for (const dir of dirs) {
-      if (dir.isDirectory()) {
+      if (dir.isDirectory() && !dir.name.startsWith('_') && !dir.name.startsWith('.')) {
         const chainPath = path.join(DATA_PATH, dir.name, 'chain.json');
         if (fs.existsSync(chainPath)) {
           try {
@@ -67,7 +67,7 @@ function getChainNames() {
   try {
     const dirs = fs.readdirSync(DATA_PATH, { withFileTypes: true });
     return dirs
-      .filter(dir => dir.isDirectory())
+      .filter(dir => dir.isDirectory() && !dir.name.startsWith('_') && !dir.name.startsWith('.'))
       .map(dir => dir.name);
   } catch (error) {
     console.error('Error reading chains directory:', error.message);
