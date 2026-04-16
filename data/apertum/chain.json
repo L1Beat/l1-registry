@@ -20,8 +20,11 @@
       "evmChainId": 2786,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
+      "rpcUrls": ["https://rpc.apertum.io/ext/bc/YDJ1r9RMkewATmA7B35q1bdV18aywzmdiXwd9zGBq3uQjsCnn/rpc"],
       "nativeToken": {
+        "symbol": "APTM",
+        "name": "Apertum",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

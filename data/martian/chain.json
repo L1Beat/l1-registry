@@ -11,14 +11,17 @@
   "socials": [],
   "chains": [
     {
-      "blockchainId": "EYPBCBz1QBTA4YvZChXFx5m3Ztct8B5LyXDynR1ekuQnsjqiK",
+      "blockchainId": "QCdAaQnYx6XMyr7NbSXwMizeFmqx1vA4Rd1LBGrnxf96mdNL6",
       "name": "MartianChain",
       "description": "",
       "evmChainId": 2027,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
+      "rpcUrls": ["https://rpc1.martianchain.com"],
       "nativeToken": {
+        "symbol": "EROL",
+        "name": "Erol Musk",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

@@ -17,7 +17,7 @@
       "evmChainId": 237007,
       "vmName": "EVM",
       "vmId": "",
-      "rpcUrls": [],
+      "rpcUrls": ["https://grpc.ulalo.xyz/ext/bc/2uN4Y9JHkLeAJK85Y48LExpNnEiepf7VoZAtmjnwDSZzpZcNig/rpc"],
       "nativeToken": {
         "logoUri": ""
       },

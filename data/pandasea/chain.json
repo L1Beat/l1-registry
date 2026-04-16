@@ -19,6 +19,9 @@
       "vmId": "",
       "rpcUrls": [],
       "nativeToken": {
+        "symbol": "PANDA",
+        "name": "PandaSea Coin",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"
