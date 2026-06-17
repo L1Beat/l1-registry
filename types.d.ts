@@ -20,6 +20,16 @@ export interface NativeToken {
   logoUri?: string;
 }
 
+export interface Staking {
+  /**
+   * P-Chain weight units per whole staked token.
+   * Staked amount = validatorWeight / weightFactor (e.g. 1000 for Beam).
+   */
+  weightFactor: number;
+  /** Symbol of the token actually staked (defaults to nativeToken.symbol) */
+  tokenSymbol?: string;
+}
+
 export interface Blockchain {
   /** Unique Avalanche blockchain identifier */
   blockchainId: string;
@@ -41,6 +51,8 @@ export interface Blockchain {
   rpcUrls: string[];
   /** Native gas/utility token of the blockchain */
   nativeToken?: NativeToken;
+  /** Staking conversion (PoS only): weight -> whole staked tokens */
+  staking?: Staking;
 }
 
 export interface ChainData {

@@ -129,6 +129,23 @@
       },
       "additionalProperties": false
     },
+    "Staking": {
+      "type": "object",
+      "required": ["weightFactor"],
+      "properties": {
+        "weightFactor": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "P-Chain weight units per whole staked token. Staked amount = validatorWeight / weightFactor (e.g. 1000 for Beam, 1000000000 for the Primary Network)."
+        },
+        "tokenSymbol": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Symbol of the token actually staked (defaults to nativeToken.symbol when omitted)"
+        }
+      },
+      "additionalProperties": false
+    },
     "Blockchain": {
       "type": "object",
       "required": [
@@ -190,6 +207,9 @@
         },
         "nativeToken": {
           "$ref": "#/definitions/NativeToken"
+        },
+        "staking": {
+          "$ref": "#/definitions/Staking"
         }
       },
       "additionalProperties": false
