@@ -1,0 +1,53 @@
+{
+  "subnetId": "2QG4keFP9iN5VG963jneAbN66Fo99V9Fgg6ba2wSiaxBMdGSUz",
+  "network": "mainnet",
+  "categories": [
+    "GAMING",
+    "METAVERSE",
+    "NFT"
+  ],
+  "name": "DOS Chain",
+  "description": "DOS Chain is an Avalanche L1 designed for high-throughput decentralized applications (dApps), offering near-instant finality and ultra-low fees. It combines EVM compatibility with a unique distributed operating system model, making it ideal for scalable DeFi, gaming, and enterprise solutions.",
+  "logo": "https://cdn.snowpeer.io/dos.png",
+  "website": "https://doschain.com",
+  "socials": [
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/DOS_Chain"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/company/doschain/"
+    },
+    {
+      "name": "telegram",
+      "url": "https://t.me/DOSChain"
+    },
+    {
+      "name": "discord",
+      "url": "https://discord.com/invite/DOS"
+    }
+  ],
+  "chains": [
+    {
+      "blockchainId": "2ewKoUrSjnviEgGmeTiELHBmNjxVTVczBPowST471rYUZvA9bk",
+      "name": "DOS Chain",
+      "description": "",
+      "evmChainId": 7979,
+      "vmName": "EVM",
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
+      "rpcUrls": [
+        "https://7979.rpc.thirdweb.com"
+      ],
+      "nativeToken": {
+        "symbol": "DOS",
+        "name": "DOS",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://doscan.io"
+    }
+  ],
+  "isL1": true
+}

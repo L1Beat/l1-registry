@@ -1,0 +1,48 @@
+{
+  "subnetId": "5DsoBD49QdKa91Tm1RWQTezxhk855qTwFnVjXdRL6mRsnCptP",
+  "network": "mainnet",
+  "categories": [
+    "STORAGE"
+  ],
+  "name": "FRQTAL (second deployment)",
+  "description": "FRQTAL is a web3 ecosystem on Avalanche focused on mass adoption, enabling users to store value via FNFTs (Fractional NFTs) and share content directly through wallet profiles. It prioritizes accessibility, ownership, and open participation—bridging the gap between crypto natives and mainstream users.",
+  "logo": "https://cdn.snowpeer.io/frqtal.png",
+  "website": "https://frqtal.org",
+  "socials": [
+    {
+      "name": "twitter",
+      "url": "https://x.com/frqtal"
+    },
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/frqtal/"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/company/frqtalprotocol/"
+    },
+    {
+      "name": "youtube",
+      "url": "https://www.youtube.com/@frqtal"
+    }
+  ],
+  "chains": [
+    {
+      "blockchainId": "2jQuqy3RpCmVQHZCdpz9SJD92yP5VL4GgKBGeGJPYJxm9vkNNH",
+      "name": "FRQTAL 2",
+      "description": "",
+      "evmChainId": 62786,
+      "vmName": "EVM",
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
+      "rpcUrls": [],
+      "nativeToken": {
+        "symbol": "FRQ",
+        "name": "FRQ",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority"
+    }
+  ],
+  "isL1": true
+}

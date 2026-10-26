@@ -6,7 +6,7 @@ FRQTAL is a web3 ecosystem on Avalanche focused on mass adoption, enabling users
 
 ## Network Information
 
-- **Subnet ID**: `5vcCHz5fgd1hWyXaKiLnMAVjmh4qW7yFxNbASBjxCXZYE445N`
+- **Subnet ID**: `2E2AhbGH8jSsT3Riur2Pjjg2twpQj7xeD6u9SgmkmGkcWKTBzf`
 - **Network**: mainnet
 - **Categories**: STORAGE
 
@@ -14,10 +14,10 @@ FRQTAL is a web3 ecosystem on Avalanche focused on mass adoption, enabling users
 
 ### FRQTAL
 
-- **Blockchain ID**: `2JepXG35p5i21VxbnPx1eWmu5Z5EutcSXVAtcisBBJPTYzAVmB`
-- **EVM Chain ID**: `62789`
+- **Blockchain ID**: `2FJM6WqyDGX2PZYipnatYXuXsNcKLio5fJMkEaGgpP4kHDTPw2`
+- **EVM Chain ID**: `62786`
 - **VM**: EVM
-- **VM ID**: ``
+- **VM ID**: `Y2UZWVSmTpRUeUpiG8SEgr79RojtEN8epKnd1LKcWoNmantBM`
 
 ## Links
 
@@ -29,4 +29,4 @@ FRQTAL is a web3 ecosystem on Avalanche focused on mass adoption, enabling users
 
 ---
 
-*Last updated: 2025-11-06*
+*Last updated: 2026-10-26*

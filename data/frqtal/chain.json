@@ -1,5 +1,5 @@
 {
-  "subnetId": "5vcCHz5fgd1hWyXaKiLnMAVjmh4qW7yFxNbASBjxCXZYE445N",
+  "subnetId": "2E2AhbGH8jSsT3Riur2Pjjg2twpQj7xeD6u9SgmkmGkcWKTBzf",
   "network": "mainnet",
   "categories": [
     "STORAGE"
@@ -28,23 +28,20 @@
   ],
   "chains": [
     {
-      "blockchainId": "2JepXG35p5i21VxbnPx1eWmu5Z5EutcSXVAtcisBBJPTYzAVmB",
+      "blockchainId": "2FJM6WqyDGX2PZYipnatYXuXsNcKLio5fJMkEaGgpP4kHDTPw2",
       "name": "FRQTAL",
       "description": "",
-      "evmChainId": 62789,
+      "evmChainId": 62786,
       "vmName": "EVM",
-      "vmId": "",
-      "rpcUrls": [
-        "https://subnets.avax.network/frqtalnet/mainnet/rpc"
-      ],
+      "vmId": "Y2UZWVSmTpRUeUpiG8SEgr79RojtEN8epKnd1LKcWoNmantBM",
+      "rpcUrls": [],
       "nativeToken": {
         "symbol": "FRQ",
         "name": "FRQ",
         "decimals": 18,
         "logoUri": ""
       },
-      "sybilResistanceType": "Proof of Authority",
-      "explorerUrl": "https://subnets.avax.network/frqtalnet"
+      "sybilResistanceType": "Proof of Authority"
     }
   ],
   "isL1": true
