@@ -194,6 +194,7 @@ function main() {
 
   // Uniqueness checks
   const seenSubnetIds = {};
+  const seenBlockchainIds = {};
   const seenEvmChainIds = {};
 
   // For uniqueness checks in --single mode, load all chains
@@ -212,6 +213,7 @@ function main() {
         const sid = data.subnetId || '';
         if (sid) seenSubnetIds[sid] = dir.name;
         for (const chain of (data.chains || [])) {
+          if (chain.blockchainId) seenBlockchainIds[chain.blockchainId] = dir.name;
           const eid = chain.evmChainId;
           if (eid !== null && eid !== undefined) {
             seenEvmChainIds[String(eid)] = dir.name;
@@ -288,16 +290,29 @@ function main() {
       }
     }
 
-    // Uniqueness: evmChainId
     for (const chain of (data.chains || [])) {
+      // Uniqueness: blockchainId (unique by construction on Avalanche)
+      const bid = chain.blockchainId || '';
+      if (bid) {
+        if (seenBlockchainIds[bid]) {
+          const msg = `${folder}: duplicate blockchainId '${bid}' already used by '${seenBlockchainIds[bid]}'`;
+          console.error(`  ERROR ${msg}`);
+          allErrors.push(msg);
+          totalErrors++;
+        } else {
+          seenBlockchainIds[bid] = folder;
+        }
+      }
+
+      // Shared evmChainId: allowed for redeployments, but flagged (replay risk for wallets)
       const eid = chain.evmChainId;
       if (eid !== null && eid !== undefined) {
         const key = String(eid);
         if (seenEvmChainIds[key]) {
-          const msg = `${folder}: evmChainId ${eid} already used by '${seenEvmChainIds[key]}'`;
-          console.error(`  ERROR ${msg}`);
-          allErrors.push(msg);
-          totalErrors++;
+          const msg = `${folder}: evmChainId ${eid} also used by '${seenEvmChainIds[key]}' (allowed for redeployments)`;
+          console.warn(`  WARN  ${msg}`);
+          allWarnings.push(msg);
+          totalWarnings++;
         } else {
           seenEvmChainIds[key] = folder;
         }

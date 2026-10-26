@@ -138,6 +138,12 @@ git push origin add-your-chain-name
 - `explorerUrl` (string) - Blockchain explorer URL
 - `nativeToken` (object) - Native token details (symbol, name, decimals, logoUri)
 
+### Uniqueness and Redeployments
+
+- `subnetId` and `blockchainId` must be unique across the registry. Duplicates fail validation.
+- `evmChainId` may be shared. When a project redeploys its L1 on a new subnet with the same EVM chain ID, add one entry per live deployment (e.g. `dos` and `dos-2`) and give them names that tell them apart. Validation reports a shared `evmChainId` as a warning, since two live chains on one EVM chain ID are a replay risk for wallets.
+- If the old deployment is no longer active, update its entry in place to the new `subnetId` and `blockchainId` instead of adding a second entry.
+
 ### Folder Naming Convention
 
 - Use lowercase letters

@@ -6,7 +6,7 @@ DePIN connectivity network and Layer 1 blockchain for decentralized infrastructu
 
 ## Network Information
 
-- **Subnet ID**: `iXy5GJp51bDjMnwxn7TMQ28eVbx5KBTcJGsWgZznrEBRBvTbx`
+- **Subnet ID**: `1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6`
 - **Network**: mainnet
 - **Categories**: DEPIN
 
@@ -14,7 +14,7 @@ DePIN connectivity network and Layer 1 blockchain for decentralized infrastructu
 
 ### Datagram Chain
 
-- **Blockchain ID**: `2DF23zvdaAtTUi2YsvXorDqQKjGF7Mr5cymG53koQuKx2KFZpx`
+- **Blockchain ID**: `RWfhP7moxu627ysqgaj4GoD3PZbdcJpAX56t6kHyuafSJGsNb`
 - **EVM Chain ID**: `968`
 - **VM**: EVM
 - **VM ID**: `srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy`
@@ -40,4 +40,4 @@ Datagram is a DePIN connectivity network and Avalanche L1 blockchain focused on 
 
 ---
 
-*Last updated: 2026-03-24*
+*Last updated: 2026-10-26*

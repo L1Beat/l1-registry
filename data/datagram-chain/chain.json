@@ -1,16 +1,18 @@
-{ 
-  "subnetId": "iXy5GJp51bDjMnwxn7TMQ28eVbx5KBTcJGsWgZznrEBRBvTbx",
+{
+  "subnetId": "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6",
   "isL1": true,
   "network": "mainnet",
-  "categories": ["DEPIN"],
+  "categories": [
+    "DEPIN"
+  ],
   "name": "Datagram Chain",
   "description": "DePIN connectivity network and Layer 1 blockchain for decentralized infrastructure.",
-  "logo": "",
+  "logo": "https://build.avax.network/images/datagram.png",
   "website": "https://datagram.network/",
   "socials": [],
   "chains": [
     {
-      "blockchainId": "2DF23zvdaAtTUi2YsvXorDqQKjGF7Mr5cymG53koQuKx2KFZpx",
+      "blockchainId": "RWfhP7moxu627ysqgaj4GoD3PZbdcJpAX56t6kHyuafSJGsNb",
       "name": "Datagram Chain",
       "evmChainId": 968,
       "vmName": "EVM",
