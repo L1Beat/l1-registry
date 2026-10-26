@@ -5,7 +5,7 @@
   "categories": ["AI"],
   "name": "Kite AI",
   "description": "Purpose-built EVM-compatible Layer 1 designed to power the AI economy with Proof of Attributed Intelligence (PoAI) consensus.",
-  "logo": "",
+  "logo": "https://build.avax.network/images/kite-ai.jpg",
   "website": "https://gokite.ai/",
   "socials": [
     {

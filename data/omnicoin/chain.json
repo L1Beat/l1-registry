@@ -5,21 +5,21 @@
   "categories": [],
   "name": "Omnicoin",
   "description": "",
-  "logo": "",
+  "logo": "https://build.avax.network/images/omnicoin.png",
   "website": "",
   "socials": [],
   "chains": [
     {
       "blockchainId": "B5gLCyeRWScxf1CeGHfXjEkcp5au8dQYQjtSV6cRammsLjsbK",
       "name": "Omnicoin",
-      "evmChainId": null,
+      "evmChainId": 88008,
       "vmName": "EVM",
       "vmId": "r5GNgqn5KRsHiukwCxED8QSdNavArKMvdVfvkTHn36yzgrum1",
       "sybilResistanceType": "Proof of Authority",
-      "rpcUrls": [],
+      "rpcUrls": ["https://rpc.omnicoin.net"],
       "nativeToken": {
-        "symbol": "",
-        "name": "",
+        "symbol": "XOM",
+        "name": "OmniCoin",
         "decimals": 18,
         "logoUri": ""
       }

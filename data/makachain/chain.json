@@ -5,21 +5,22 @@
   "categories": [],
   "name": "MakaChain",
   "description": "",
-  "logo": "",
+  "logo": "https://build.avax.network/images/makachain.svg",
   "website": "https://makachain.io/",
   "socials": [],
   "chains": [
     {
       "blockchainId": "2TfGh1pyDoumsDgTxDmWoseRD7GGRwrpX19HLsQdeCRqwK9BqZ",
       "name": "MakaChain",
-      "evmChainId": null,
+      "evmChainId": 777178,
       "vmName": "EVM",
       "vmId": "b5amPLN8M6tx2djD6FwChxEaV9Gtnyjp2aQU54E5xvCz66sfz",
       "sybilResistanceType": "Proof of Authority",
-      "rpcUrls": [],
+      "explorerUrl": "https://makascan.io",
+      "rpcUrls": ["https://api.makachain.io/ext/bc/2TfGh1pyDoumsDgTxDmWoseRD7GGRwrpX19HLsQdeCRqwK9BqZ/rpc"],
       "nativeToken": {
-        "symbol": "",
-        "name": "",
+        "symbol": "MFUEL",
+        "name": "MFUEL",
         "decimals": 18,
         "logoUri": ""
       }
