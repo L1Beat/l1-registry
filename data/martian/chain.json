@@ -1,5 +1,5 @@
 {
-  "subnetId": "KQnyo57ynwQ5QD1xcLYySYSVxvR1yQCU3vmH7krZ6XLhZjSrV",
+  "subnetId": "2MsjtNrK8BacanssVC2LmUrUHDMqwVFHdi5xS2BdpLPxbpiv1N",
   "network": "mainnet",
   "categories": [
     "LAUNCHPAD"
@@ -16,7 +16,7 @@
       "description": "",
       "evmChainId": 2027,
       "vmName": "EVM",
-      "vmId": "",
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
       "rpcUrls": ["https://rpc1.martianchain.com"],
       "nativeToken": {
         "symbol": "EROL",

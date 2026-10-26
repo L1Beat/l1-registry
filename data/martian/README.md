@@ -6,7 +6,7 @@ No description available.
 
 ## Network Information
 
-- **Subnet ID**: `KQnyo57ynwQ5QD1xcLYySYSVxvR1yQCU3vmH7krZ6XLhZjSrV`
+- **Subnet ID**: `2MsjtNrK8BacanssVC2LmUrUHDMqwVFHdi5xS2BdpLPxbpiv1N`
 - **Network**: mainnet
 - **Categories**: LAUNCHPAD
 
@@ -17,7 +17,7 @@ No description available.
 - **Blockchain ID**: `EYPBCBz1QBTA4YvZChXFx5m3Ztct8B5LyXDynR1ekuQnsjqiK`
 - **EVM Chain ID**: `2027`
 - **VM**: EVM
-- **VM ID**: ``
+- **VM ID**: `srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy`
 
 ## Links
 
