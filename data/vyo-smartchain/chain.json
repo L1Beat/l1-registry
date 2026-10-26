@@ -1,0 +1,35 @@
+{
+  "subnetId": "NW5TvuMNRyxWQcd5Ed7JxVp9KE81HazVwdKtFZjAh1MV5twF3",
+  "network": "mainnet",
+  "categories": [
+    "FINANCE"
+  ],
+  "name": "VALYGO Smartchain",
+  "description": "VALYGO Smartchain is a VYO-operated Avalanche L1 for smart contracts.",
+  "logo": "https://build.avax.network/images/vyo-chain.svg",
+  "website": "https://vyochain.com",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX",
+      "name": "VALYGO Smartchain",
+      "description": "",
+      "evmChainId": 7771777,
+      "vmName": "EVM",
+      "vmId": "sqSD9bnSNoFYdWp9CbeyMN5STQ9vRLHbfHysmQVVqAABfYdZc",
+      "rpcUrls": [
+        "https://rpc-gw-1.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc",
+        "https://rpc-gw-2.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "VYO",
+        "name": "VYO",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://vyoscan.com"
+    }
+  ],
+  "isL1": true
+}

@@ -1,20 +1,22 @@
 {
-  "subnetId": "",
+  "subnetId": "LdAcdLzdbEAuPjivWf9HzhBZiztq31xbhGE21xTUqA1YP7LGH",
   "isL1": true,
   "network": "mainnet",
-  "categories": [],
+  "categories": [
+    "LOYALTY"
+  ],
   "name": "Tomatochain",
   "description": "",
-  "logo": "",
+  "logo": "https://images.ctfassets.net/gcj8jwzm6086/7GhldaeEnj3kcTUPu5GgRH/bd786009f2019cba9c5695ec7b4b5a40/logo_%C3%A1__%C3%A1__%C3%A1__%C3%A1__%C3%A1__%C3%A1__%C3%A1__%C3%A1__.png",
   "website": "",
   "socials": [],
   "chains": [
     {
-      "blockchainId": "",
+      "blockchainId": "2PXzkiiy7zhXsPBDkhW2kwMvjeHk8kDXKbv5A6G3SjroMVxfkT",
       "name": "Tomatochain",
       "evmChainId": 77294,
       "vmName": "EVM",
-      "vmId": "",
+      "vmId": "tHBaypAwFt3HK2FT5noBGJYaPTTrBBradQU94oKW5C9nu7WWa",
       "sybilResistanceType": "Proof of Authority",
       "rpcUrls": [
         "https://subnets.avax.network/ttchain/mainnet/rpc"
@@ -24,7 +26,8 @@
         "name": "TTC Token",
         "decimals": 18,
         "logoUri": ""
-      }
+      },
+      "explorerUrl": "https://explorer.avax.network/ttchain"
     }
   ]
 }

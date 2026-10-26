@@ -1,0 +1,32 @@
+{
+  "subnetId": "2o1i2YzX4FVfAzNHJYUnt4YFALuZNJGUvJS2nhx1zTTiGWUnZv",
+  "network": "mainnet",
+  "categories": [],
+  "name": "ValueX Chain",
+  "description": "ValueX Chain (vlxL1) is an EVM-compatible Avalanche L1 run by the ValueX Foundation.",
+  "logo": "https://build.avax.network/images/valuex-chain.png",
+  "website": "https://valuex-foundation.com",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "zNXAbLSpaqfn3PTLi6ztbeomNtj4wsa7tBxSPyvXYEKstrtsR",
+      "name": "vlxL1",
+      "description": "",
+      "evmChainId": 90000,
+      "vmName": "EVM",
+      "vmId": "u9yY3bLZYo2z79xAfp3ib9WZNpw5GHCtz9RkT5xmdx4KuPGUC",
+      "rpcUrls": [
+        "https://node.valuex-foundation.com/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "VLX",
+        "name": "ValueX Token",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://scan.valuex-foundation.com"
+    }
+  ],
+  "isL1": true
+}

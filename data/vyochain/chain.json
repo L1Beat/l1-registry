@@ -1,0 +1,34 @@
+{
+  "subnetId": "24PDVyhFQb6GdRrvQnhf5kvH5HeTh8UTPje2wW56buS4VmMeLc",
+  "network": "mainnet",
+  "categories": [
+    "FINANCE"
+  ],
+  "name": "VYOChain",
+  "description": "VYOChain is the main Avalanche L1 of the VALYGO (VYO) ecosystem.",
+  "logo": "https://build.avax.network/images/vyo-chain.svg",
+  "website": "https://vyochain.com",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "2Ge2BkkjNupU2WwJ3SEbaoQGWhTb9HBK34RXqPbSTSzhnrqcJk",
+      "name": "VYOChain",
+      "description": "",
+      "evmChainId": 1771,
+      "vmName": "EVM",
+      "vmId": "f2fd2c3jCBVAJofMhnwVUG1HY9s4QxJdAmBeB3VMZdULFQWcp",
+      "rpcUrls": [
+        "https://rpc-gw-1.vyoscan.com/ext/bc/2Ge2BkkjNupU2WwJ3SEbaoQGWhTb9HBK34RXqPbSTSzhnrqcJk/rpc",
+        "https://rpc-gw-2.vyoscan.com/ext/bc/2Ge2BkkjNupU2WwJ3SEbaoQGWhTb9HBK34RXqPbSTSzhnrqcJk/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "VYO",
+        "name": "VYO",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority"
+    }
+  ],
+  "isL1": true
+}

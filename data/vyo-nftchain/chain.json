@@ -1,0 +1,35 @@
+{
+  "subnetId": "2Ra6kcHGKENzcYRjPtitGJr2sNimskVQ8nZ6A6meVFeeVEkTr2",
+  "network": "mainnet",
+  "categories": [
+    "FINANCE"
+  ],
+  "name": "VALYGO NFT",
+  "description": "VALYGO NFT is a VYO-operated Avalanche L1 for NFTs.",
+  "logo": "https://build.avax.network/images/vyo-chain.svg",
+  "website": "https://vyochain.com",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw",
+      "name": "VALYGO NFT",
+      "description": "",
+      "evmChainId": 7773777,
+      "vmName": "EVM",
+      "vmId": "qd2U3NUazsnSopdJHLkAd91vE4AdgsHKSLHV8Wqkucrius2kG",
+      "rpcUrls": [
+        "https://rpc-gw-1.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc",
+        "https://rpc-gw-2.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "VYO",
+        "name": "VYO",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://nft.vyoscan.com"
+    }
+  ],
+  "isL1": true
+}
