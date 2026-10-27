@@ -1,8 +1,11 @@
 name: Publish to npm
 
+# Publishes with npm trusted publishing (OIDC): no NPM_TOKEN secret.
+# Requires a trusted publisher on npmjs.com for this repo and workflow file.
+
 on:
   release:
-    types: [created]
+    types: [published]
   workflow_dispatch:
     inputs:
       dry_run:
@@ -24,21 +27,20 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '24'
+          registry-url: 'https://registry.npmjs.org'
 
-      - name: Configure npm for provenance publishing
-        run: |
-          echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" > .npmrc
-          echo "registry=https://registry.npmjs.org/" >> .npmrc
+      # Trusted publishing needs npm >= 11.5.1
+      - name: Update npm
+        run: npm install -g npm@latest
+
+      - name: Validate registry data
+        run: npm run validate
 
       - name: Publish to npm (dry-run)
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run == 'true'
-        run: npm publish --dry-run --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --dry-run --access public
 
       - name: Publish to npm
         if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run == 'false')
-        run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --access public
