@@ -1,0 +1,32 @@
+{
+  "subnetId": "Fm9kzjy6nPnNrVojWNhxDFCUc7W6iLJEsqFFpq5sWCWqezMNA",
+  "network": "mainnet",
+  "categories": [],
+  "name": "Elysium",
+  "description": "",
+  "logo": "",
+  "website": "",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "3jVp8Ee4CarD5Sua3qDPwNGNRCEetSSGToWcwzwkKeHbbChcL",
+      "name": "Elysium",
+      "description": "",
+      "evmChainId": 5782,
+      "vmName": "EVM",
+      "vmId": "XaLVAs3e6qtGWvxgPCuCgFsFvy8X7S18W5uD1mQzJ8BY4788C",
+      "rpcUrls": [
+        "https://subnets.avax.network/elysium/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "ELY",
+        "name": "ELY",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://explorer.avax.network/elysium"
+    }
+  ],
+  "isL1": true
+}

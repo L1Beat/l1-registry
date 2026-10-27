@@ -1,0 +1,32 @@
+{
+  "subnetId": "24m4U5hnspQH4x5ZkNs9ZCeJ4P2cG57SbHRznPPNbgYWUyuBig",
+  "network": "mainnet",
+  "categories": [],
+  "name": "Turing Chain",
+  "description": "",
+  "logo": "",
+  "website": "",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "p3eNXxT7Myp9jLrRZvj4rzTHDQMvQVJsYLknWhcXgqSU3Dwdi",
+      "name": "Turing Chain",
+      "description": "",
+      "evmChainId": 120623,
+      "vmName": "EVM",
+      "vmId": "eCPPrUDATPzJiv8P36y9Bx6GkE8pn2MTRpUaVFqGhoVTSuUqB",
+      "rpcUrls": [
+        "https://subnets.avax.network/turing/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "TUR",
+        "name": "TUR",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://explorer.avax.network/turing"
+    }
+  ],
+  "isL1": true
+}

@@ -29,9 +29,12 @@
       "description": "",
       "evmChainId": 235235,
       "vmName": "EVM",
-      "vmId": "",
+      "vmId": "WhYJp6iD3MUNcEHhJHhd4acXLuGu3qiMNoD6zmSHP6Ln7BS9E",
       "rpcUrls": [],
       "nativeToken": {
+        "symbol": "CDK",
+        "name": "CDK",
+        "decimals": 18,
         "logoUri": ""
       },
       "sybilResistanceType": "Proof of Authority"

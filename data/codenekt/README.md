@@ -19,6 +19,12 @@ A fast, secure, and customizable Layer 1 blockchain built specifically for the a
 - **VM**: EVM
 - **VM ID**: ``
 
+#### Native Assets
+
+| Symbol | Name | Decimals |
+|--------|------|----------|
+| CDK | CDK | 18 |
+
 ## Links
 
 - **Website**: https://codenekt-ecosystem.io
@@ -28,4 +34,4 @@ A fast, secure, and customizable Layer 1 blockchain built specifically for the a
 
 ---
 
-*Last updated: 2025-11-06*
+*Last updated: 2026-10-27*
