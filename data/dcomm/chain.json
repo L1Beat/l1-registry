@@ -21,12 +21,18 @@
       "description": "",
       "evmChainId": 326663,
       "vmName": "EVM",
-      "vmId": "",
-      "rpcUrls": [],
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
+      "rpcUrls": [
+        "https://rpc-mainnet-dcomm-rl.cogitus.io/ext/bc/2QJ6d1ue6UyXNXrMdGnELFc2AjMdMqs8YbX3sT3k4Nin2RcWSm/rpc"
+      ],
       "nativeToken": {
+        "symbol": "DCM",
+        "name": "DCM",
+        "decimals": 18,
         "logoUri": ""
       },
-      "sybilResistanceType": "Proof of Authority"
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://explorer-dcomm.cogitus.io"
     }
   ],
   "isL1": true

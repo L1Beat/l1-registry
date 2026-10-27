@@ -19,6 +19,12 @@ Real world assets, tokenised, structured and supported.
 - **VM**: EVM
 - **VM ID**: ``
 
+#### Native Assets
+
+| Symbol | Name | Decimals |
+|--------|------|----------|
+| DCM | DCM | 18 |
+
 ## Links
 
 - **Website**: https://dcomm.community
@@ -26,4 +32,4 @@ Real world assets, tokenised, structured and supported.
 
 ---
 
-*Last updated: 2025-11-06*
+*Last updated: 2026-10-27*

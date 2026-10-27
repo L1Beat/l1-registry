@@ -1,0 +1,34 @@
+{
+  "subnetId": "22NZWmRxBgmwMy6dCueMEv7kxzuTAqvYzDjSJv27tjgH3twfxB",
+  "network": "mainnet",
+  "categories": [
+    "SOCIALFI"
+  ],
+  "name": "technical-ivory-gopher",
+  "description": "",
+  "logo": "",
+  "website": "",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "BLA3Z8uLTfAgPCnYEKiH7aBAVSwqLH4YqNcf2icaTdwg5voa2",
+      "name": "technical-ivory-gopher",
+      "description": "",
+      "evmChainId": 77974,
+      "vmName": "EVM",
+      "vmId": "tGBVJpgPGB9TqYwhPoacbJZkTrDUegK9XsafP8QBWrusanYAQ",
+      "rpcUrls": [
+        "https://subnets.avax.network/technicali/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "VERO",
+        "name": "VERO",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://explorer.avax.network/technicali"
+    }
+  ],
+  "isL1": true
+}

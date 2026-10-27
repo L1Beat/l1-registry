@@ -1,0 +1,32 @@
+{
+  "subnetId": "27b37KmbZusvA5CFxnwoNs4HQgJjpxhbmW63nfabzCXBDDJY7n",
+  "network": "mainnet",
+  "categories": [],
+  "name": "Drama",
+  "description": "",
+  "logo": "",
+  "website": "https://drama.center",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "cW2yyntWNpRBbY3mtzZLdQEjYZfGopwomhyTjUPMj4gtA8z3o",
+      "name": "Drama",
+      "description": "",
+      "evmChainId": 710520,
+      "vmName": "EVM",
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
+      "rpcUrls": [
+        "https://rpc.drama.center"
+      ],
+      "nativeToken": {
+        "symbol": "DRAMA",
+        "name": "DRAMA",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://scan.drama.center"
+    }
+  ],
+  "isL1": true
+}

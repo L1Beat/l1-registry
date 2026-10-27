@@ -1,0 +1,34 @@
+{
+  "subnetId": "3RGWTpWdyveMRv9o9tGhhGsZpVdmZVMvvxZMTXTbaRHYhxA2y",
+  "network": "mainnet",
+  "categories": [
+    "FINANCE"
+  ],
+  "name": "North Investments",
+  "description": "",
+  "logo": "",
+  "website": "",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "289ecuoAnBmyZupLLN9DZWxCAFau8TSUh9YkkGwBYCAxxfByJw",
+      "name": "North Investments",
+      "description": "",
+      "evmChainId": 122225,
+      "vmName": "EVM",
+      "vmId": "qdvWSejtBGkFfmpJ3xDz7kG3fCY3x5ix96JxwbnWoB8pf8X32",
+      "rpcUrls": [
+        "https://subnets.avax.network/north/mainnet/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "NORTH",
+        "name": "NORTH",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://explorer.avax.network/north"
+    }
+  ],
+  "isL1": true
+}
