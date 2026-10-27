@@ -41,7 +41,7 @@
         "symbol": "NUM",
         "name": "NUM",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/numbers.jpg"
       },
       "sybilResistanceType": "Proof of Authority"
     }

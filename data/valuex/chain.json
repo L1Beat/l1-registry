@@ -22,7 +22,7 @@
         "symbol": "VLX",
         "name": "ValueX Token",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://build.avax.network/images/valuex-chain.png"
       },
       "sybilResistanceType": "Proof of Authority",
       "explorerUrl": "https://scan.valuex-foundation.com"

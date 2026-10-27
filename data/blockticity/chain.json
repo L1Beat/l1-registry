@@ -37,7 +37,7 @@
         "symbol": "BTIC",
         "name": "BTIC",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/blockticity.png"
       },
       "sybilResistanceType": "Proof of Authority",
       "explorerUrl": "https://subnets.avax.network/btic"

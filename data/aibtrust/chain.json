@@ -22,7 +22,7 @@
         "symbol": "AIB",
         "name": "AIB",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://build.avax.network/images/aibtrust.jpg"
       },
       "sybilResistanceType": "Proof of Authority",
       "explorerUrl": "https://subnets.avax.network/aibmainnet"

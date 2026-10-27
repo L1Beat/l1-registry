@@ -21,7 +21,7 @@
         "symbol": "XOM",
         "name": "OmniCoin",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://build.avax.network/images/omnicoin.png"
       }
     }
   ]

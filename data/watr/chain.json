@@ -23,7 +23,7 @@
         "symbol": "WATR",
         "name": "WATR",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/watr.svg"
       },
       "sybilResistanceType": "Proof of Authority"
     }

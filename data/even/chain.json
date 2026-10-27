@@ -24,7 +24,7 @@
         "symbol": "EVN",
         "name": "EVN",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/even.png"
       },
       "sybilResistanceType": "Proof of Authority",
       "explorerUrl": "https://subnets.avax.network/even"

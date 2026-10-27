@@ -39,7 +39,7 @@
         "symbol": "FRQ",
         "name": "FRQ",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/frqtal.png"
       },
       "sybilResistanceType": "Proof of Authority"
     }
