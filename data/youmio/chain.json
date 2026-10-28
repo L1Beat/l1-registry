@@ -24,7 +24,7 @@
         "symbol": "GAS",
         "name": "GAS",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/youmio.png"
       },
       "sybilResistanceType": "Proof of Authority",
       "explorerUrl": "https://explorer.avax.network/youmio"
