@@ -1,0 +1,32 @@
+{
+  "subnetId": "252afdxnKNWTVgpjLfCY9KrAs4rBU7DwFaPoS1LQ4BCw1TTAXL",
+  "network": "mainnet",
+  "categories": [],
+  "name": "Snowside",
+  "description": "",
+  "logo": "",
+  "website": "https://snowside.network",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "ZLcxUyuZxVshKtyhK7ZnaUJRCyS6cvb7CPHXWryjjsMCWa63f",
+      "name": "Snowside",
+      "description": "",
+      "evmChainId": 32904,
+      "vmName": "EVM",
+      "vmId": "dk9HWWWW1YGB5mZX48ABvu8fq2YTqdByWP7XjL2HnvkNGa5nr",
+      "rpcUrls": [
+        "https://rpc.snowside.network/mainnet"
+      ],
+      "nativeToken": {
+        "symbol": "ECX",
+        "name": "ECash",
+        "decimals": 18,
+        "logoUri": ""
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://explorer.snowside.network"
+    }
+  ],
+  "isL1": true
+}

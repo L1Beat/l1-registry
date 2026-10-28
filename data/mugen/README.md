@@ -19,10 +19,14 @@ MUGEN mainnet
 - **VM**: EVM
 - **VM ID**: `b4NW8Cm5c1UEjiP7pLfCKjhfpGQMp3KEvKvFzG9XsHhuUrQGa`
 
+#### RPC Endpoints
+
+- `https://29111.rpc.thirdweb.com`
+
 ## Links
 
 - **Twitter**: https://x.com/buildonmugen
 
 ---
 
-*Last updated: 2025-11-06*
+*Last updated: 2026-10-28*

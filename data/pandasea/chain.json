@@ -16,8 +16,8 @@
       "description": "",
       "evmChainId": 7776,
       "vmName": "EVM",
-      "vmId": "",
-      "rpcUrls": [],
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
+      "rpcUrls": ["https://rpc-mainnet-pandasea-rl.cogitus.io/ext/bc/2gYSmRb7tjS4wb5FHFx8NBhwQgARWEdr8MGVC7v8UWJJFkEpTj/rpc"],
       "nativeToken": {
         "symbol": "PANDA",
         "name": "PandaSea Coin",
