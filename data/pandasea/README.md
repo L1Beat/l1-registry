@@ -17,7 +17,11 @@ PandaSea is a Layer 1 blockchain and Web3 stack for creating liquid, decentraliz
 - **Blockchain ID**: `2gYSmRb7tjS4wb5FHFx8NBhwQgARWEdr8MGVC7v8UWJJFkEpTj`
 - **EVM Chain ID**: `7776`
 - **VM**: EVM
-- **VM ID**: ``
+- **VM ID**: `srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy`
+
+#### RPC Endpoints
+
+- `https://rpc-mainnet-pandasea-rl.cogitus.io/ext/bc/2gYSmRb7tjS4wb5FHFx8NBhwQgARWEdr8MGVC7v8UWJJFkEpTj/rpc`
 
 ## Links
 
@@ -25,4 +29,4 @@ PandaSea is a Layer 1 blockchain and Web3 stack for creating liquid, decentraliz
 
 ---
 
-*Last updated: 2025-11-06*
+*Last updated: 2026-10-28*
