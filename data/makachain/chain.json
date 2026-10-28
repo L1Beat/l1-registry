@@ -22,7 +22,7 @@
         "symbol": "MFUEL",
         "name": "MFUEL",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://build.avax.network/images/makachain.svg"
       }
     }
   ]

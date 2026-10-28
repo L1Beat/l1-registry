@@ -33,7 +33,7 @@
         "symbol": "BLAZE",
         "name": "BLAZE",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/blaze.png"
       },
       "sybilResistanceType": "Proof of Authority",
       "explorerUrl": "https://subnets.avax.network/blaze"

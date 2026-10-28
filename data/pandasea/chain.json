@@ -22,7 +22,7 @@
         "symbol": "PANDA",
         "name": "PandaSea Coin",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/pandasea.png"
       },
       "sybilResistanceType": "Proof of Authority"
     }

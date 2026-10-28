@@ -25,7 +25,7 @@
         "symbol": "DGAS",
         "name": "DGAS",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/dinari.png"
       },
       "sybilResistanceType": "Proof of Authority",
       "explorerUrl": "https://subnets.avax.network/dinari"

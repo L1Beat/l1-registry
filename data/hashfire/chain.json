@@ -26,7 +26,7 @@
         "symbol": "HASHD",
         "name": "HASHD",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/hashfire.svg"
       },
       "sybilResistanceType": "Proof of Authority",
       "explorerUrl": "https://explorer.avax.network/hashfire"

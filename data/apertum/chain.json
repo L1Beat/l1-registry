@@ -25,7 +25,7 @@
         "symbol": "APTM",
         "name": "Apertum",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/apertum.png"
       },
       "sybilResistanceType": "Proof of Authority"
     }

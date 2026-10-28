@@ -35,7 +35,7 @@
         "symbol": "FITFI",
         "name": "FITFI",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/step.png"
       },
       "sybilResistanceType": "Proof of Authority"
     }

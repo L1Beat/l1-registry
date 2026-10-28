@@ -24,7 +24,7 @@
         "symbol": "GAS",
         "name": "GAS",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/fifa.png"
       },
       "sybilResistanceType": "Proof of Authority",
       "explorerUrl": "https://subnets.avax.network/fifa"

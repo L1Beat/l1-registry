@@ -29,7 +29,7 @@
         "symbol": "KITE",
         "name": "Kite AI",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://build.avax.network/images/kite-ai.jpg"
       }
     }
   ]

@@ -41,7 +41,7 @@
         "symbol": "DOS",
         "name": "DOS",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/dos.png"
       },
       "sybilResistanceType": "Proof of Authority"
     }

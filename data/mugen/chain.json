@@ -28,7 +28,7 @@
         "symbol": "MGN",
         "name": "MGN",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/mugen.png"
       },
       "sybilResistanceType": "Proof of Authority"
     }

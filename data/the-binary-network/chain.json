@@ -22,7 +22,7 @@
         "symbol": "BNRY",
         "name": "Binary",
         "decimals": 18,
-        "logoUri": ""
+        "logoUri": "https://cdn.snowpeer.io/bnry.png"
       },
       "sybilResistanceType": "Proof of Authority"
     }
