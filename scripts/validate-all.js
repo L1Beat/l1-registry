@@ -138,10 +138,13 @@ function validateChain(folder, data, isStrict) {
       }
 
       const nt = chain.nativeToken;
+      // Private chains (no public RPC) often don't publish native token details,
+      // and without an RPC nobody can verify them, so only warn for those.
+      const isPrivateChain = Array.isArray(chain.rpcUrls) && chain.rpcUrls.length === 0;
       if (nt && typeof nt === 'object') {
         for (const field of ['symbol', 'name', 'decimals']) {
           if (nt[field] === undefined || nt[field] === null || nt[field] === '') {
-            if (isStrict) {
+            if (isStrict && !isPrivateChain) {
               errors.push(`chains[${idx}].nativeToken.${field} required and cannot be empty`);
             } else {
               warnings.push(`chains[${idx}].nativeToken.${field} is empty`);
