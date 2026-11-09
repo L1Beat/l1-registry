@@ -137,6 +137,7 @@ git push origin add-your-chain-name
 - `sybilResistanceType` (string) - "Proof of Stake" or "Proof of Authority"
 - `explorerUrl` (string) - Blockchain explorer URL
 - `nativeToken` (object) - Native token details (symbol, name, decimals, logoUri)
+  - For private chains with no public RPC (`rpcUrls: []`), empty token fields are only a warning, since they usually aren't published.
 
 ### Uniqueness and Redeployments
 

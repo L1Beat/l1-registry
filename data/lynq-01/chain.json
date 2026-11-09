@@ -1,0 +1,31 @@
+{
+  "subnetId": "2cu3j3LHfhao5dqQ3s9L8PCuP5ys7hfAYn4rahKQH8TEWgfJ9c",
+  "network": "mainnet",
+  "categories": [
+    "FINANCE",
+    "PAYMENTS"
+  ],
+  "name": "Lynq 01",
+  "description": "Lynq is a real-time, interest-bearing settlement network for institutional digital asset firms, built by Tassat, tZERO and Arca Labs and operated by the SEC-registered broker-dealer tZERO Securities. Participants settle with each other around the clock and keep earning interest on their balances while funds are in transit. In April 2026 Lynq moved onto its own permissioned Avalanche L1.",
+  "logo": "https://lynq.network/wp-content/uploads/2025/01/favicon-300x300.png",
+  "website": "https://lynq.network",
+  "socials": [
+    { "name": "twitter", "url": "https://x.com/Lynq_Network" },
+    { "name": "linkedin", "url": "https://www.linkedin.com/company/lynq-network" }
+  ],
+  "chains": [
+    {
+      "blockchainId": "BXLoBWScGdbWcFozx2PDv9hEcH3fXNvNmX3GAc25gbbRxs7nc",
+      "name": "Lynq 01",
+      "description": "",
+      "evmChainId": 93134,
+      "vmName": "EVM",
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
+      "rpcUrls": [],
+      "nativeToken": {
+        "logoUri": ""
+      }
+    }
+  ],
+  "isL1": true
+}
