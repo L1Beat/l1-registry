@@ -1,0 +1,34 @@
+{
+  "subnetId": "ahFffnMBHeMhTDHp2Gesb5GVwndjSbummzhCRoDsBr6hHU8M3",
+  "network": "mainnet",
+  "categories": [
+    "GENERAL"
+  ],
+  "name": "TSX Bastion",
+  "description": "The curated TSX chain. Anyone can use it, but only approved builders can deploy contracts, through the contract deployer allowlist. EVM-compatible, fees paid in TSX.",
+  "logo": "https://tsx.network/brand/icon.png",
+  "website": "https://tsx.network",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "2btMkKMfyrDJQ7Khf4gYvcgtxSVjAjzjNhTgMaN3fSGj7F1bH4",
+      "name": "TSX Bastion",
+      "description": "The curated TSX chain. Anyone can use it, but only approved builders can deploy contracts, through the contract deployer allowlist. EVM-compatible, fees paid in TSX.",
+      "evmChainId": 454,
+      "vmName": "EVM",
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
+      "rpcUrls": [
+        "https://bastion.tsx.network/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "TSX",
+        "name": "TSX",
+        "decimals": 18,
+        "logoUri": "https://tsx.network/brand/icon.png"
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://scan.tsx.network/bastion"
+    }
+  ],
+  "isL1": true
+}

@@ -1,0 +1,34 @@
+{
+  "subnetId": "2sYMJH1LWdY7QCbnRLeGKx93PiuxKGKcsYtPyFsc5ZaQYRvVxo",
+  "network": "mainnet",
+  "categories": [
+    "GENERAL"
+  ],
+  "name": "TSX Horizon",
+  "description": "The open TSX chain. Anyone can deploy contracts and use them, with no sign-up. EVM-compatible, about one-second blocks, fees paid in TSX.",
+  "logo": "https://tsx.network/brand/icon.png",
+  "website": "https://tsx.network",
+  "socials": [],
+  "chains": [
+    {
+      "blockchainId": "qoqDS2EGjEybQZZVUGnf38Rm4sMdxAvjikhysjoL84yd9pWka",
+      "name": "TSX Horizon",
+      "description": "The open TSX chain. Anyone can deploy contracts and use them, with no sign-up. EVM-compatible, about one-second blocks, fees paid in TSX.",
+      "evmChainId": 455,
+      "vmName": "EVM",
+      "vmId": "srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy",
+      "rpcUrls": [
+        "https://horizon.tsx.network/rpc"
+      ],
+      "nativeToken": {
+        "symbol": "TSX",
+        "name": "TSX",
+        "decimals": 18,
+        "logoUri": "https://tsx.network/brand/icon.png"
+      },
+      "sybilResistanceType": "Proof of Authority",
+      "explorerUrl": "https://scan.tsx.network/horizon"
+    }
+  ],
+  "isL1": true
+}
