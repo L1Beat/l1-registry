@@ -25,6 +25,7 @@ The TSX test chain, for trying contracts before Horizon or Bastion. It runs on t
 ## Links
 
 - **Website**: https://tsx.network
+- **X**: https://x.com/tsx_blockchain
 
 ---
 

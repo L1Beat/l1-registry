@@ -25,6 +25,7 @@ The open TSX chain. Anyone can deploy contracts and use them, with no sign-up. E
 ## Links
 
 - **Website**: https://tsx.network
+- **X**: https://x.com/tsx_blockchain
 
 ---
 

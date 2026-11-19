@@ -25,6 +25,7 @@ The curated TSX chain. Anyone can use it, but only approved builders can deploy 
 ## Links
 
 - **Website**: https://tsx.network
+- **X**: https://x.com/tsx_blockchain
 
 ---
 

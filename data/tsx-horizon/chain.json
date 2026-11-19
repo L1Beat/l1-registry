@@ -8,7 +8,12 @@
   "description": "The open TSX chain. Anyone can deploy contracts and use them, with no sign-up. EVM-compatible, about one-second blocks, fees paid in TSX.",
   "logo": "https://tsx.network/brand/icon.png",
   "website": "https://tsx.network",
-  "socials": [],
+  "socials": [
+    {
+      "name": "twitter",
+      "url": "https://x.com/tsx_blockchain"
+    }
+  ],
   "chains": [
     {
       "blockchainId": "qoqDS2EGjEybQZZVUGnf38Rm4sMdxAvjikhysjoL84yd9pWka",
